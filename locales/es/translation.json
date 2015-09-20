@@ -6,6 +6,9 @@
     "about": "Sobre Mi",
     "contact": "Contactar"
   },
+  "header": {
+    "profession": "Traductora Independiente"
+  },
   "contact": {
     "name": "Nombre",
     "email": "Email",

@@ -6,6 +6,9 @@
     "about": "About Me",
     "contact": "Contact"
   },
+  "header": {
+    "profession": "Freelance Translator"
+  },
   "contact": {
     "name": "Name",
     "email": "Email Address",
