@@ -1,8 +1,19 @@
 {
+  "nav": {
+    "services": "Services",
+    "quality": "Qualité",
+    "works": "Comment Ça Marche",
+    "about": "A propos de moi",
+    "contact": "Contact"
+  },
   "contact": {
     "name": "Nom Complet",
     "email": "Email",
     "telephone": "Téléphone",
     "message": "Message"
+  },
+  "location": {
+    "first": "El Médano, Tenerife",
+    "second": "Îles Canaries, Espagne"
   }
 }

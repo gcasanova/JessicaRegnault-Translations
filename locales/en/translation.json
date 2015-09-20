@@ -1,8 +1,19 @@
 {
+  "nav": {
+    "services": "Services",
+    "quality": "Quality",
+    "works": "How It Works",
+    "about": "About Me",
+    "contact": "Contact"
+  },
   "contact": {
     "name": "Name",
     "email": "Email Address",
     "telephone": "Phone Number",
     "message": "Message"
+  },
+  "location": {
+    "first": "El Medano, Tenerife",
+    "second": "Canary Islands, Spain"
   }
 }
