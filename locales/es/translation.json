@@ -1,0 +1,8 @@
+{
+  "contact": {
+    "name": "Nombre",
+    "email": "Email",
+    "telephone": "Teléfono",
+    "message": "Mensaje"
+  }
+}
