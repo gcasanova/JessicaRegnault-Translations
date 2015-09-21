@@ -1,10 +1,24 @@
 $(document).ready(function(){
   i18n.init(function() {
       $(".index").i18n();
-      selectLanguage(window.i18n.lng().substring(0, 2));
+      selectLanguage(window.i18n.lng().substring(0, 2), false);
+
+      var s = document.createElement('script');
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = "js/jqBootstrapValidation.js";
+      var fs = document.getElementsByTagName('script')[0];
+      fs.parentNode.insertBefore(s, fs);
+
+      s = document.createElement('script');
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = "js/contact_me.js";
+      fs = document.getElementsByTagName('script')[0];
+      fs.parentNode.insertBefore(s, fs);
   });
 
-  function selectLanguage(lngCode) {
+  function selectLanguage(lngCode, resetValidation) {
     switch (lngCode) {
       case "en":
         $('#flag-selector-btn').html('<img border="0" alt="British Flag" src="img/flags/british.png" width="20" height="20"> <span class="caret"></span>');
@@ -20,11 +34,19 @@ $(document).ready(function(){
     }
 
     $(".dropdown-menu li a").click(function() {
-      selectLanguage($(this).data('value'));
+      selectLanguage($(this).data('value'), true);
     });
 
     $.i18n.setLng(lngCode, function(t) {
       $(".index").i18n();
     });
+
+    if (resetValidation) {
+      resetValidationMessages();
+    }
+  }
+
+  function resetValidationMessages() {
+    $(".help-block").empty();
   }
 });

@@ -13,7 +13,14 @@
     "name": "Nombre",
     "email": "Email",
     "telephone": "Teléfono",
-    "message": "Mensaje"
+    "message": "Mensaje",
+    "send": "Enviar",
+    "error": {
+      "name": "Introduce tu nombre.",
+      "email": "Introduce tu dirección de email.",
+      "telephone": "Introduce tu número de teléfono.",
+      "message": "Introduce un mensaje."
+    }
   },
   "location": {
     "first": "El Médano, Tenerife",
