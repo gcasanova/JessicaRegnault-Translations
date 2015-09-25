@@ -16,10 +16,13 @@
     "message": "Mensaje",
     "send": "Enviar",
     "error": {
-      "name": "Introduce tu nombre.",
-      "email": "Introduce tu dirección de email.",
-      "telephone": "Introduce tu número de teléfono.",
-      "message": "Introduce un mensaje."
+      "required": {
+        "name": "Introduce tu nombre.",
+        "email": "Introduce tu dirección de email.",
+        "telephone": "Introduce tu número de teléfono.",
+        "message": "Introduce un mensaje."
+      },
+      "email": "Dirección de correo electrónico no válida."
     }
   },
   "footer": {

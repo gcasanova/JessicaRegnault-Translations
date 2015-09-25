@@ -16,6 +16,10 @@ $(document).ready(function(){
       s.src = "js/contact_me.js";
       fs = document.getElementsByTagName('script')[0];
       fs.parentNode.insertBefore(s, fs);
+
+      var hostname = "gmail.com";
+      var username = "jessica.regnault.translations";
+      $("#email-span").html('<a href="mailto:' + username + '@' + hostname + '">' + username + '@' + hostname + '</a>');
   });
 
   function selectLanguage(lngCode, resetValidation) {
@@ -33,24 +37,16 @@ $(document).ready(function(){
         $('#flag-selector-list').html('<li><a href="#" data-value="fr"><img border="0" alt="French Flag" src="img/flags/french.png" width="20" height="20"></a></li><li><a href="#" data-value="en"><img border="0" alt="British Flag" src="img/flags/british.png" width="20" height="20"></a></li>');
     }
 
-    $(".dropdown-menu li a").click(function() {
-      selectLanguage($(this).data('value'), true);
-    });
-
     $.i18n.setLng(lngCode, function(t) {
       $(".index").i18n();
     });
 
-    var hostname = "gmail.com";
-    var username = "jessica.regnault.translations";
-    $("#email-span").html('<a href="mailto:' + username + '@' + hostname + '">' + username + '@' + hostname + '</a>');
-
     if (resetValidation) {
-      resetValidationMessages();
+      location.reload();
+    } else {
+      $(".dropdown-menu li a").click(function() {
+        selectLanguage($(this).data('value'), true);
+      });
     }
-  }
-
-  function resetValidationMessages() {
-    $(".help-block").empty();
   }
 });
