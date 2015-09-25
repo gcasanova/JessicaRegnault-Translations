@@ -5,14 +5,14 @@ $(document).ready(function(){
 
       var s = document.createElement('script');
       s.type = "text/javascript";
-      s.async = true;
+      s.async = false;
       s.src = "js/jqBootstrapValidation.js";
       var fs = document.getElementsByTagName('script')[0];
       fs.parentNode.insertBefore(s, fs);
 
       s = document.createElement('script');
       s.type = "text/javascript";
-      s.async = true;
+      s.async = false;
       s.src = "js/contact_me.js";
       fs = document.getElementsByTagName('script')[0];
       fs.parentNode.insertBefore(s, fs);
