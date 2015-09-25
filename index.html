@@ -29,6 +29,8 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+  <link rel="icon" type="image/png" href="img/icon/icon_black.ico">
+
 </head>
 
 <body id="page-top" class="index">
@@ -44,7 +46,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#page-top">JR Translations</a>
+        <a class="navbar-brand" href="#page-top"><img src="img/logo/logo_horizontal_white.png" alt=""></a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -86,7 +88,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <img class="img-responsive" src="img/profile.png" alt="">
+          <img class="img-bordered" src="img/profile.png" alt="profile picture">
           <div class="intro-text">
             <span class="name">Jessica Regnault</span>
             <hr class="star-light">
@@ -152,26 +154,46 @@
         <div class="col-lg-10 col-lg-offset-1 text-center">
           <p data-i18n="quality.title"></p>
           <div class="quality-list text-left">
-            <p class="quality-list-item">
-              <span class="circled-number">1</span>
-              <span data-i18n="quality.one"></span>
-            </p>
-            <p class="quality-list-item">
-              <span class="circled-number">2</span>
-              <span data-i18n="quality.two"></span>
-            </p>
-            <p class="quality-list-item">
-              <span class="circled-number">3</span>
-              <span data-i18n="quality.three"></span>
-            </p>
-            <p class="quality-list-item">
-              <span class="circled-number">4</span>
-              <span data-i18n="quality.four"></span>
-            </p>
-            <p class="quality-list-item">
-              <span class="circled-number">5</span>
-              <span data-i18n="quality.five"></span>
-            </p>
+            <div class="row quality-list-item">
+              <div class="col-lg-1 v-align">
+                <span class="quality-list-item-number">1</span>
+              </div>
+              <div class="col-lg-10 v-align">
+                <span class="quality-list-item-text" data-i18n="quality.one"></span>
+              </div>
+            </div>
+            <div class="row quality-list-item">
+              <div class="col-lg-1 v-align">
+                <span class="quality-list-item-number">2</span>
+              </div>
+              <div class="col-lg-10 v-align">
+                <span class="quality-list-item-text" data-i18n="quality.two"></span>
+              </div>
+            </div>
+            <div class="row quality-list-item">
+              <div class="col-lg-1 v-align">
+                <span class="quality-list-item-number">3</span>
+              </div>
+              <div class="col-lg-10 v-align">
+                <span class="quality-list-item-text" data-i18n="quality.three"></span>
+              </div>
+            </div>
+            <div class="row quality-list-item">
+              <div class="col-lg-1 v-align">
+                <span class="quality-list-item-number">4</span>
+              </div>
+              <div class="col-lg-10 v-align">
+                <span class="quality-list-item-text" data-i18n="quality.four"></span>
+              </div>
+            </div>
+            <div class="row quality-list-item">
+              <div class="col-lg-1 v-align">
+                <span class="quality-list-item-number">5</span>
+              </div>
+              <div class="col-lg-10 v-align">
+                <span class="quality-list-item-text" data-i18n="quality.five"></span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -276,10 +298,10 @@
       </div>
       <div class="row">
         <div class="col-lg-4 col-lg-offset-2">
-          <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+          <p data-i18n="about.first"></p>
         </div>
         <div class="col-lg-4">
-          <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+          <p data-i18n="about.second"></p>
         </div>
       </div>
     </div>
@@ -375,8 +397,14 @@
     <div class="footer-below">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
-            Copyright &copy; jr-translations 2015
+          <div class="col-lg-4">
+            <i class="fa fa-phone footer-icon"></i>+34 626 91 40 91
+          </div>
+          <div class="col-lg-4">
+            <i class="fa fa-pencil footer-icon"></i><span id="email-span"></span>
+          </div>
+          <div class="col-lg-4">
+            Copyright &copy; JR Translations 2015
           </div>
         </div>
       </div>

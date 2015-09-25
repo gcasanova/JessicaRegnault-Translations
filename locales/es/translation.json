@@ -7,7 +7,7 @@
     "contact": "Contactar"
   },
   "header": {
-    "profession": "Traductora Independiente"
+    "profession": "Traductora Independiente - Licenciada en Derecho"
   },
   "contact": {
     "name": "Nombre",
@@ -99,5 +99,9 @@
       "step": "Paso 8:",
       "text": "Le enviaré una factura a final de mes. Cada factura vence en el plazo de 30 días desde la fecha de facturación."
     }
+  },
+  "about": {
+    "first": "Mi nombre es Jessica Regnault. Como licenciada en Derecho por la Universidad de la Laguna y traductora profesional durante más de 3 años, creo en el poder del lenguaje y como forma la percepción del mundo que nos rodea.",
+    "second": "Con más de 2,000,000 de palabras traducidas en campos técnicos y jurídicos, podré serte de ayuda para comunicarte con tus socios, clientes y proveedores en España y Francia. Encontraré las palabras adecuadas."
   }
 }

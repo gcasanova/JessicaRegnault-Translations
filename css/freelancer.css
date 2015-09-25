@@ -132,18 +132,24 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
+        padding: 0px;
+        margin-left: 100px !important;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
+    }
+
+    .navbar-fixed-top .navbar-brand img {
+        width: 180px;
     }
 
     .navbar-fixed-top.navbar-shrink {
         padding: 10px 0;
     }
 
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+    .navbar-fixed-top.navbar-shrink .navbar-brand img {
+        width: 140px;
+        margin-top: 5px;
     }
 }
 
@@ -203,6 +209,11 @@ section.success a.active {
     }
 }
 
+.img-bordered {
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
 #portfolio .services-item {
     right: 0;
     margin: 0 0 15px;
@@ -247,13 +258,13 @@ section.success a.active {
     margin-top: 25px;
 }
 
-.circled-number {
-  width: 36px;
-  height: 36px;
-  padding: 8px;
-  margin-right: 10px;
-  border: 2px solid #fff;
-  border-radius: 50%;
+.quality-list-item-number {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.quality-list-item-text {
+    font-size: 20px;
 }
 
 .works-subtitle, .step {
@@ -263,7 +274,7 @@ section.success a.active {
 }
 
 .works-list-item-text {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .works-subsection {
@@ -374,6 +385,10 @@ footer .footer-col {
 footer .footer-below {
     padding: 25px 0;
     background-color: #233140;
+}
+
+.footer-icon {
+  margin-right: 8px;
 }
 
 .btn-social {

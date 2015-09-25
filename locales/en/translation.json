@@ -7,7 +7,7 @@
     "contact": "Contact"
   },
   "header": {
-    "profession": "Freelance Translator"
+    "profession": "Freelance Translator - Graduated Lawyer"
   },
   "contact": {
     "name": "Name",
@@ -99,5 +99,9 @@
       "step": "Step 8:",
       "text": "I will send you my invoice by the end of the month. Every invoice is due within 30 days from the date of invoice."
     }
+  },
+  "about": {
+    "first": "My name is Jessica Regnault. As a graduate in law from the University of La Laguna and professional translator for more than 3 years, I believe in the power of language and how it forms our perception of the world around us.",
+    "second": "With more than 2,000,000 words translated in technical and legal fields, I will help you successfully communicate with your partners, clients, and suppliers in France and Spain. Tell me what you want to say. I will find the right words."
   }
 }

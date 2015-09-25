@@ -7,7 +7,7 @@
     "contact": "Contact"
   },
   "header": {
-    "profession": "Traductrice Indépendante"
+    "profession": "Traductrice Indépendante - Baccalauréat en Droit"
   },
   "contact": {
     "name": "Nom Complet",
@@ -99,5 +99,9 @@
       "step": "Étape 8:",
       "text": "Je vais vous envoyer ma facture à la fin du mois. Chaque facture est dû dans les 30 jours à compter de la date de facturation."
     }
+  },
+  "about": {
+    "first": "Mon nom est Jessica Regnault. En tant que diplômé en droit de l'Université de La Laguna et traducteur professionnel depuis plus de 3 ans, je crois en la puissance du langage et comment il forme notre perception du monde qui nous entoure.",
+    "second": "Avec plus de 2.000.000 de mots traduits dans les domaines techniques et juridiques, je vais vous aider à communiquer avec succès avec vos partenaires, clients et fournisseurs en France et en Espagne. Je vais trouver les mots justes."
   }
 }

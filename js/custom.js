@@ -41,6 +41,10 @@ $(document).ready(function(){
       $(".index").i18n();
     });
 
+    var hostname = "gmail.com";
+    var username = "jessica.regnault.translations";
+    $("#email-span").html('<a href="mailto:' + username + '@' + hostname + '">' + username + '@' + hostname + '</a>');
+
     if (resetValidation) {
       resetValidationMessages();
     }
