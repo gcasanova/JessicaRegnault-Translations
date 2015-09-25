@@ -22,8 +22,82 @@
       "message": "Please enter a message."
     }
   },
-  "location": {
-    "first": "El Medano, Tenerife",
-    "second": "Canary Islands, Spain"
+  "footer": {
+    "location": {
+      "title": "Location",
+      "first": "El Medano, Tenerife",
+      "second": "Canary Islands, Spain"
+    },
+    "web": "Around the web",
+    "developer" : "Developer"
+  },
+  "services": {
+    "technical": {
+      "title": "Translation of technical documents",
+      "details": "Avoid faulty products and ensure increased productivity."
+    },
+    "legal": {
+      "title": "Translation of legal documents",
+      "details": "Never worry again that legal texts are mistranslated."
+    },
+    "proofreading": {
+      "title": "Proofreading of technical and legal translations",
+      "details": "Because four eyes see more than two."
+    },
+    "interpreting": {
+      "title": "Interpreting",
+      "details": "Make sure your clients always understand you."
+    }
+  },
+  "quality": {
+    "title": "I adhere to the “Quality in Translation” campaign. The following requirements apply for every project I accept:",
+    "one": "I strive for the best possible translation every time.",
+    "two": "I only accept assignments that allow me to strive for this goal.",
+    "three": "I only work into French and Spanish, my native languages.",
+    "four": "I only accept assignments in my fields of specialization.",
+    "five": "I constantly strive to improve through constructive feedback and ongoing training."
+  },
+  "works": {
+    "title": "Translation/proofreading process",
+    "security": {
+      "title": "Data security",
+      "text": "Upon request, I can set up a password-protected FTP server for sending and receiving your documents. I back up all my translations and keep password-protected copies until my clients have received them. All documents are kept confidential."
+    },
+    "proofreading": {
+      "title": "Proofreading by another translator",
+      "text": "Upon request, I can include proofreading as an additional service in my non-binding offer. A second qualified translator, i.e. a trusted colleague of mine, will then proofread the translation."
+    },
+    "one": {
+      "step": "Step 1:",
+      "text": "Select the documents that need translation."
+    },
+    "two": {
+      "step": "Step 2:",
+      "text": "Contact me via my contact form, by email or phone and provide first details about your project, such as the deadline, type of texts, target audience etc."
+    },
+    "three": {
+      "step": "Step 3:",
+      "text": "After our first contact, send me the texts that you would like to be translated."
+    },
+    "four": {
+      "step": "Step 4:",
+      "text": "I will analyse these texts and prepare a non-binding offer for you taking into account the specific details you gave me, such as the deadline, target audience etc."
+    },
+    "five": {
+      "step": "Step 5:",
+      "text": "I will send you my non-binding offer and specify a deadline by which you will have to either accept or decline my offer."
+    },
+    "six": {
+      "step": "Step 6:",
+      "text": "Upon confirmation, I will translate or proofread your documents and send them back to you until the given deadline. My translation process includes quality assurance. I proof all documents twice and run a quality assurance check for technical translations, such as Xbench."
+    },
+    "seven": {
+      "step": "Step 7:",
+      "text": "You confirm that you have received the translated documents and that the documents meet your standards and specific requests."
+    },
+    "eight": {
+      "step": "Step 8:",
+      "text": "I will send you my invoice by the end of the month. Every invoice is due within 30 days from the date of invoice."
+    }
   }
 }

@@ -22,8 +22,82 @@
       "message": "Introduce un mensaje."
     }
   },
-  "location": {
-    "first": "El Médano, Tenerife",
-    "second": "Canarias, España"
+  "footer": {
+    "location": {
+      "title": "Dirección",
+      "first": "El Médano, Tenerife",
+      "second": "Canarias, España"
+    },
+    "web": "Redes Sociales",
+    "developer" : "Desarrollador"
+  },
+  "services": {
+    "technical": {
+      "title": "Traducción de documentos técnicos",
+      "details": "Evita productos defectuosos y garantiza una mejor productividad."
+    },
+    "legal": {
+      "title": "Traducción de documentos jurídicos",
+      "details": "No te vuelvas a preocupar por fallos de traducción en textos jurídicos."
+    },
+    "proofreading": {
+      "title": "Revisión de traducciones técnicas y jurídicos",
+      "details": "Porque cuatro ojos ven más que dos."
+    },
+    "interpreting": {
+      "title": "Interpretación",
+      "details": "Asegúrate siempre de que tus clientes te entienden."
+    }
+  },
+  "quality": {
+    "title": "Cumplo con lo estipulado en la campaña de “Calidad en la Traducción”. Los siguientes requisitos se aplican a cada proyecto que acepto:",
+    "one": "Me esfuerzo por conseguir la mejor traducción posible en cada ocasión.",
+    "two": "Sólo acepto encargos que me permiten esforzarme por este objetivo.",
+    "three": "Solo traduzco al francés y al español, mis idiomas nativos.",
+    "four": "Sólo acepto encargos en mis campos de especialidad.",
+    "five": "Continuamente me esfuerzo por mejorar a través de crítica constructiva y continua formación."
+  },
+  "works": {
+    "title": "Proceso de traducción/revisión",
+    "security": {
+      "title": "Seguridad de sus datos",
+      "text": "Bajo demanda, puedo configurar un servidor FTP protegido con contraseña para enviar y recibir sus documentos. Hago copias de seguridad de todas mis traducciones y guardo copias protegidas con contraseña hasta que mis clientes las reciben. Todos los documentos son manejados confidencialmente."
+    },
+    "proofreading": {
+      "title": "Revisión por otro traductor",
+      "text": "Bajo demanda, puedo incluir revisión extra como un servicio adicional en el presupuesto. Un segundo traductor cualificado de confianza se encargará de revisar una vez más la traducción."
+    },
+    "one": {
+      "step": "Paso 1:",
+      "text": "Seleccione los documentos que necesita traducir."
+    },
+    "two": {
+      "step": "Paso 2:",
+      "text": "Póngase en contacto conmigo a través del formulario, por correo electrónico o, si lo prefiere, por teléfono y comparta los primeros detalles sobre su proyecto, tales como la fecha límite, tipo de documentos, audiencia etc."
+    },
+    "three": {
+      "step": "Paso 3:",
+      "text": "Después de nuestro primer contacto, envíeme los documentos que desea que sean traducidos."
+    },
+    "four": {
+      "step": "Paso 4:",
+      "text": "Analizaré los textos y prepararé un presupuesto para ústed teniendo en cuenta los detalles específicos que me dió anteriormente."
+    },
+    "five": {
+      "step": "Paso 5:",
+      "text": "Le enviaré mi presupuesto no vinculante especificando una fecha límite antes de la cuál se debe aceptar o rechazar el presupuesto."
+    },
+    "six": {
+      "step": "Paso 6:",
+      "text": "Tras su confirmación, traduciré o revisaré sus documentos y se los enviaré no más tarde de la fecha límite especificada en el encargo. Mi proceso de traducción incluye un seguro de calidad. Reviso todos los documentos dos veces y posteriormente se someten a un control de calidad técnico, como el Xbench."
+    },
+    "seven": {
+      "step": "Paso 7:",
+      "text": "Usted confirma que ha recibido los documentos traducidos y que los mismos cumplen con sus estándards y peticiones específicas."
+    },
+    "eight": {
+      "step": "Paso 8:",
+      "text": "Le enviaré una factura a final de mes. Cada factura vence en el plazo de 30 días desde la fecha de facturación."
+    }
   }
 }
