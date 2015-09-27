@@ -372,7 +372,7 @@
           </div>
           <div class="footer-col col-md-4">
             <h3 data-i18n="footer.web"></h3>
-            <ul class="list-inline">
+            <ul class="list-inline list-social">
               <li>
                 <a href="https://www.facebook.com/jessica.regnault.7" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
               </li>
@@ -383,6 +383,7 @@
                 <a href="https://es.linkedin.com/pub/jessica-regnault/52/616/435" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
               </li>
             </ul>
+            <div class="fb-like" data-href="http://www.jr-translations.com" data-layout="button" data-action="recommend" data-show-faces="false" data-share="false"></div>
           </div>
           <div class="footer-col col-md-4">
             <h3 data-i18n="footer.developer"></h3>
@@ -402,7 +403,7 @@
             <i class="fa fa-pencil footer-icon"></i><span id="email-span"></span>
           </div>
           <div class="col-lg-4">
-            Copyright &copy; JR Translations 2015
+            &copy; 2015 JR Translations
           </div>
         </div>
       </div>
@@ -435,6 +436,18 @@
 
   <!-- Custom Theme JavaScript -->
   <script src="js/freelancer.js"></script>
+
+  <!-- Facebook like -->
+  <div id="fb-root"></div>
+  <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4";
+      fjs.parentNode.insertBefore(js, fjs);
+    } (document, 'script', 'facebook-jssdk'));
+  </script>
 
 </body>
 
