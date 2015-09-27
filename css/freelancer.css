@@ -158,6 +158,18 @@ header .intro-text .skills {
   }
 }
 
+@media(max-width:1000px) {
+  .navbar-fixed-top.navbar-shrink .navbar-brand img {
+      width: 0px;
+  }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+  .navbar-header {
+    width: 0px;
+  }
+}
+
 .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -390,6 +402,20 @@ footer .footer-col {
 footer .footer-below {
     padding: 25px 0;
     background-color: #233140;
+}
+
+#email-span {
+    font-size: 16px;
+}
+
+#developed {
+    margin-right: 5px;
+}
+
+@media(max-width:1200px) {
+  .fb-like-container {
+      margin-left: 100px;
+  }
 }
 
 .list-social {
