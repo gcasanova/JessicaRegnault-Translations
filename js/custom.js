@@ -23,18 +23,22 @@ $(document).ready(function(){
   });
 
   function selectLanguage(lngCode, resetValidation) {
+    var fbLng = "en_GB";
     switch (lngCode) {
       case "en":
         $('#flag-selector-btn').html('<img border="0" alt="British Flag" src="img/flags/british.png" width="20" height="20"> <span class="caret"></span>');
         $('#flag-selector-list').html('<li><a href="#" data-value="es"><img border="0" alt="Spanish Flag" src="img/flags/spanish.png" width="20" height="20"></a></li><li><a href="#" data-value="fr"><img border="0" alt="French Flag" src="img/flags/french.png" width="20" height="20"></a></li>');
+        fbLng = "en_GB";
         break;
       case "fr":
         $('#flag-selector-btn').html('<img border="0" alt="French Flag" src="img/flags/french.png" width="20" height="20"> <span class="caret"></span>');
         $('#flag-selector-list').html('<li><a href="#" data-value="es"><img border="0" alt="Spanish Flag" src="img/flags/spanish.png" width="20" height="20"></a></li><li><a href="#" data-value="en"><img border="0" alt="British Flag" src="img/flags/british.png" width="20" height="20"></a></li>');
+        fbLng = "fr_FR";
         break;
       default:
         $('#flag-selector-btn').html('<img border="0" alt="Spanish Flag" src="img/flags/spanish.png" width="20" height="20"> <span class="caret"></span>');
         $('#flag-selector-list').html('<li><a href="#" data-value="fr"><img border="0" alt="French Flag" src="img/flags/french.png" width="20" height="20"></a></li><li><a href="#" data-value="en"><img border="0" alt="British Flag" src="img/flags/british.png" width="20" height="20"></a></li>');
+        fbLng = "es_ES";
     }
 
     $.i18n.setLng(lngCode, function(t) {
@@ -47,6 +51,23 @@ $(document).ready(function(){
       $(".dropdown-menu li a").click(function() {
         selectLanguage($(this).data('value'), true);
       });
+
+      // Facebook "Recommend" button
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '1894639840760379',
+          xfbml      : true,
+          version    : 'v2.4'
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/" + fbLng + "/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       } (document, 'script', 'facebook-jssdk'));
     }
   }
 });
