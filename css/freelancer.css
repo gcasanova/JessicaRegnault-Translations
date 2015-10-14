@@ -412,9 +412,24 @@ footer .footer-below {
     margin-right: 5px;
 }
 
-@media(max-width:1200px) {
+@media(max-width:400px) {
   .fb-like-container {
-      margin-left: 100px;
+      margin-top: 5px;
+      margin-left: 20px;
+  }
+}
+
+@media(min-width:430px) and (max-width:550px) {
+  .fb-like-container {
+    margin-top: 5px;
+    margin-left: 40px;
+  }
+}
+
+@media(min-width:550px) and (max-width:1200px) {
+  .fb-like-container {
+    margin-top: 5px;
+    margin-left: 60px;
   }
 }
 
