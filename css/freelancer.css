@@ -275,10 +275,6 @@ section.success a.active {
   height: 1065px;
 }
 
-#about-container {
-  margin-left: 580px;
-}
-
 #contact {
   background-image: url("../img/keyboard.png");
   background-repeat: no-repeat;
@@ -505,7 +501,7 @@ footer .footer-below {
 }
 
 .carousel {
-    padding-top: 100px !important;
+    padding-top: 0px !important;
     padding-bottom: 0px !important;
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -513,14 +509,16 @@ footer .footer-below {
     width: 100%;
 }
 
-.carousel .item {
-  height: 600px;
+@media(min-width:768px) {
+  .carousel {
+      padding-top: 100px !important;
+  }
+}
+
+.carousel-inner {
+    margin-bottom: -20px;
 }
 
 .carousel .item img {
     width: 100%;
-}
-
-.bs-example {
-	margin: 20px;
 }
