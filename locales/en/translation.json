@@ -1,10 +1,25 @@
 {
   "nav": {
-    "services": "Services",
-    "quality": "Quality",
-    "works": "How It Works",
-    "about": "About Me",
-    "contact": "Contact"
+    "services": {
+      "name": "Services",
+      "initial": "S"
+    },
+    "quality": {
+      "name": "Quality",
+      "initial": "Q"
+    },
+    "works": {
+      "name": "How It Works",
+      "initial": "H"
+    },
+    "about": {
+      "name": "About Me",
+      "initial": "A"
+    },
+    "contact": {
+      "name": "Contact",
+      "initial": "C"
+    }
   },
   "header": {
     "profession": "Freelance Translator - Graduated Lawyer"

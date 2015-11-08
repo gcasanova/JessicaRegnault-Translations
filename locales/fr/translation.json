@@ -1,10 +1,25 @@
 {
   "nav": {
-    "services": "Services",
-    "quality": "Qualité",
-    "works": "Comment Ça Marche",
-    "about": "A propos de moi",
-    "contact": "Contact"
+    "services": {
+      "name": "Services",
+      "initial": "S"
+    },
+    "quality": {
+      "name": "Qualité",
+      "initial": "Q"
+    },
+    "works": {
+      "name": "Comment Ça Marche",
+      "initial": "C"
+    },
+    "about": {
+      "name": "A propos de moi",
+      "initial": "A"
+    },
+    "contact": {
+      "name": "Contact",
+      "initial": "C"
+    }
   },
   "header": {
     "profession": "Traductrice Indépendante - Baccalauréat en Droit"

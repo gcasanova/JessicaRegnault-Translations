@@ -1,10 +1,25 @@
 {
   "nav": {
-    "services": "Servicios",
-    "quality": "Calidad",
-    "works": "Cómo Funciona",
-    "about": "Sobre Mi",
-    "contact": "Contactar"
+    "services": {
+      "name": "Servicios",
+      "initial": "S"
+    },
+    "quality": {
+      "name": "Calidad",
+      "initial": "C"
+    },
+    "works": {
+      "name": "Cómo Funciona",
+      "initial": "C"
+    },
+    "about": {
+      "name": "Sobre Mi",
+      "initial": "S"
+    },
+    "contact": {
+      "name": "Contactar",
+      "initial": "C"
+    }
   },
   "header": {
     "profession": "Traductora Independiente - Licenciada en Derecho"
