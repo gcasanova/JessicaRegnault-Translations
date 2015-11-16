@@ -1,34 +1,68 @@
 {
   "nav": {
     "services": {
-      "name": "Servicios",
-      "initial": "S"
+      "initial": "S",
+      "menu": "Servicios",
+      "section": "Servicios"
     },
     "quality": {
-      "name": "Calidad",
-      "initial": "C"
+      "initial": "C",
+      "menu": "Calidad",
+      "section": "Calidad y Confidencialidad"
     },
     "works": {
-      "name": "Cómo Funciona",
-      "initial": "C"
+      "initial": "C",
+      "menu": "Cómo Funciona",
+      "section": "Cómo Funciona"
     },
     "about": {
-      "name": "Sobre Mi",
-      "initial": "S"
+      "initial": "S",
+      "menu": "Sobre Mi",
+      "section": "Sobre Mi"
+    },
+    "formation": {
+      "initial": "F",
+      "menu": "Formación",
+      "section": "Formación"
     },
     "contact": {
-      "name": "Contactar",
-      "initial": "C"
+      "initial": "C",
+      "menu": "Contactar",
+      "section": "Contactar"
     }
   },
   "header": {
-    "profession": "Traductora Independiente - Licenciada en Derecho"
+    "carousel": {
+      "first": {
+        "title": "Traducciones, Interpretación, Revisión y corrección",
+        "subtitle": "Español a Francés, Francés a Español"
+      },
+      "second": {
+        "title": "\"Apuesta por una comunicación efectiva\""
+      },
+      "third": {
+        "title": "Trato personalizado",
+        "subtitle": "Principios básicos: Compromiso, seguridad, confidencialidad, puntualidad"
+      }
+    }
   },
   "contact": {
-    "name": "Nombre",
-    "email": "Email",
-    "telephone": "Teléfono",
-    "message": "Mensaje",
+    "name": {
+      "label": "Nombre",
+      "placeholder": "Nombre"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "Email"
+    },
+    "telephone": {
+      "label": "Teléfono",
+      "placeholder": "Teléfono (opcional)"
+    },
+    "message": {
+      "label": "Mensaje",
+      "placeholder": "Mensaje"
+    },
     "send": "Enviar",
     "error": {
       "required": {
@@ -50,30 +84,73 @@
     "developer" : "Desarrollado por"
   },
   "services": {
-    "technical": {
-      "title": "Traducción de documentos técnicos",
-      "details": "Evita productos defectuosos y garantiza una mejor productividad."
+    "read": "Leer más",
+    "one": {
+      "title": "TRADUCCIONES GENERALES",
+      "details": "Porque lo simple también tiene que ser correctamente traducido. Evite productos defectuosos y garantice una mejor productividad",
+      "more": {
+        "one": "Correos electrónicos",
+        "two": "Currículum Vitae",
+        "three": "Cartas y correspondencia",
+        "four": "Páginas webs de contenido general"
+      }
     },
-    "legal": {
-      "title": "Traducción de documentos jurídicos",
-      "details": "No te vuelvas a preocupar por fallos de traducción en textos jurídicos."
+    "two": {
+      "title": "TRADUCCIONES ESPECIALIZADAS",
+      "details": "Para usar las palabras adecuadas en cada contexto. No se vuelva a preocupar por fallos de traducción de contenidos técnicos",
+      "more": {
+        "one": "Traducción audiovisual",
+        "two": "Informes financieros",
+        "three": "Actas reuniones",
+        "four": "Manuales y metodologías",
+        "five": "Traducciones de contenido jurídico",
+        "six": "Páginas webs de contenido especializado",
+        "seven": "Programas informáticos",
+        "eight": "Traducciones con terminología específica"
+      }
     },
-    "proofreading": {
-      "title": "Revisión de traducciones técnicas y jurídicos",
-      "details": "Porque cuatro ojos ven más que dos."
+    "three": {
+      "title": "REVISIÓN Y CORRECCIÓN",
+      "details": "Porque cuatro ojos ven más que dos",
+      "more": {
+        "one": "Con el servicio de revisión bilingüe, será posible revisar una traducción ya realizada mediante la comparación de los textos original y meta para corregir y mejorar el resultado final en todo lo que sea necesario.",
+        "two": "Por otra parte, el servicio de corrección le permite corregir y mejorar aspectos relacionados con la gramática, la ortografía y la ortotipografía hasta pulir el texto de manera que el texto producido alcance los estándares de calidad exigidos por, entre otros, los clientes de su empresa, instituciones de educación superior u organismos internacionales."
+      }
     },
-    "interpreting": {
-      "title": "Interpretación",
-      "details": "Asegúrate siempre de que tus clientes te entienden."
+    "four": {
+      "title": "INTERPRETACIÓN",
+      "details": "Asegúrese siempre de que sus clientes le entienden",
+      "more": {
+        "one": "Con el servicio de interpretación, podrá estar tranquilo y asegurarse que todo lo que quiere transmitir será compartido, palabra por palabra.",
+        "two": "Con una amplia experiencia en interpretación consecutiva y de enlace, he participado como intérprete en Juzgados y Tribunales, formaciones, reuniones, celebraciones y eventos internacionales en ciudades como Bruselas, Barcelona y Santa Cruz de Tenerife."
+      }
     }
   },
   "quality": {
-    "title": "Cumplo con lo estipulado en la campaña de “Calidad en la Traducción”. Los siguientes requisitos se aplican a cada proyecto que acepto:",
-    "one": "Me esfuerzo por conseguir la mejor traducción posible en cada ocasión.",
-    "two": "Sólo acepto encargos que me permiten esforzarme por este objetivo.",
-    "three": "Solo traduzco al francés y al español, mis idiomas nativos.",
-    "four": "Sólo acepto encargos en mis campos de especialidad.",
-    "five": "Continuamente me esfuerzo por mejorar a través de crítica constructiva y continua formación."
+    "section": {
+      "one": {
+        "title": "Criterios básicos para asegurar un servicio de calidad",
+        "one": "La correcta elección de aspectos fundamentales como terminología, vocabulario, expresiones, tecnicismos y jergas específicas de cada sector y profesión en el idioma de destino.",
+        "two": "El uso adecuado de gramática, ortografía, puntuación y sintaxis, así como la correcta transcripción de fechas, nombres, datos, etc. en el idioma de destino.",
+        "three": "La adecuación del estilo y formas del lenguaje a los fines del texto y la intención de su autor.",
+        "four": "Rapidez y precisión en las respuestas dadas a las consultas planteadas por los clientes.",
+        "five": "Cumplimiento de los plazos y requisitos de entrega."
+      },
+      "two": {
+        "title": "Los siguientes requisitos se aplican a cada proyecto que acepto",
+        "one": "Me esfuerzo por conseguir la mejor traducción posible en cada ocasión.",
+        "two": "Solo acepto encargos que me permiten esforzarme por este objetivo.",
+        "three": "Solo traduzco al francés y al español, mis idiomas nativos.",
+        "four": "Solo acepto encargos en mis campos de especialidad.",
+        "five": "Continuamente me esfuerzo por mejorar a través de crítica constructiva y continua formación."
+      },
+      "three": {
+        "title": "La confidencialidad de sus documentos",
+        "one": "JR TRANSLATIONS hace todo lo posible, compatiblemente con la forma electrónica de los servicios, para mantener la más absoluta confidencialidad de todos los textos y datos personales del cliente para los fines de la traducción.",
+        "two": "En conformidad con la Organización Internacional de Estandarización (ISO) la naturaleza del trabajo realizado y cualquier información transmitida por el cliente a JR TRANSLATIONS serán objeto de máxima confidencialidad.",
+        "three": "Estas garantías no se aplicarán en el caso de que JR TRANSLATIONS sea obligada por ley a comunicar tal información."
+      }
+    }
   },
   "works": {
     "title": "Proceso de traducción/revisión",
@@ -81,45 +158,35 @@
       "title": "Seguridad de sus datos",
       "text": "Bajo demanda, puedo configurar un servidor FTP protegido con contraseña para enviar y recibir sus documentos. Hago copias de seguridad de todas mis traducciones y guardo copias protegidas con contraseña hasta que mis clientes las reciben. Todos los documentos son manejados confidencialmente."
     },
-    "proofreading": {
-      "title": "Revisión por otro traductor",
-      "text": "Bajo demanda, puedo incluir revisión extra como un servicio adicional en el presupuesto. Un segundo traductor cualificado de confianza se encargará de revisar una vez más la traducción."
-    },
-    "one": {
-      "step": "Paso 1:",
-      "text": "Seleccione los documentos que necesita traducir."
-    },
-    "two": {
-      "step": "Paso 2:",
-      "text": "Póngase en contacto conmigo a través del formulario, por correo electrónico o, si lo prefiere, por teléfono y comparta los primeros detalles sobre su proyecto, tales como la fecha límite, tipo de documentos, audiencia etc."
-    },
-    "three": {
-      "step": "Paso 3:",
-      "text": "Después de nuestro primer contacto, envíeme los documentos que desea que sean traducidos."
-    },
-    "four": {
-      "step": "Paso 4:",
-      "text": "Analizaré los textos y prepararé un presupuesto para ústed teniendo en cuenta los detalles específicos que me dió anteriormente."
-    },
-    "five": {
-      "step": "Paso 5:",
-      "text": "Le enviaré mi presupuesto no vinculante especificando una fecha límite antes de la cuál se debe aceptar o rechazar el presupuesto."
-    },
-    "six": {
-      "step": "Paso 6:",
-      "text": "Tras su confirmación, traduciré o revisaré sus documentos y se los enviaré no más tarde de la fecha límite especificada en el encargo. Mi proceso de traducción incluye un seguro de calidad. Reviso todos los documentos dos veces y posteriormente se someten a un control de calidad técnico, como el Xbench."
-    },
-    "seven": {
-      "step": "Paso 7:",
-      "text": "Usted confirma que ha recibido los documentos traducidos y que los mismos cumplen con sus estándares y peticiones específicas."
-    },
-    "eight": {
-      "step": "Paso 8:",
-      "text": "Le enviaré una factura a final de mes. Cada factura vence en un plazo de 30 días desde la fecha de facturación."
-    }
+    "one": "Seleccione los documentos que necesita traducir.",
+    "two": "Póngase en contacto conmigo a través del formulario, por correo electrónico o, si lo prefiere, por teléfono y comparta los primeros detalles sobre su proyecto, tales como el plazo, formato de documentos, que tipo de servicio necesita... No aceptaré ningún encargo que no pueda cumplir.",
+    "three": "Después de nuestro primer contacto, envíeme los documentos que desea que sean traducidos en formato original. Aquellas traducciones que deban realizarse sobre un formato especial, que retrasa o dificulta la labor de la traducción llevarán un recargo que será indicado en el presupuesto (por ejemplo: formato HTML, archivos gráficos, papel...)",
+    "four": "Analizaré los textos y prepararé un presupuesto para usted teniendo en cuenta los detalles específicos que me dio anteriormente.",
+    "five": "Le enviaré mi presupuesto sin compromiso especificando una fecha límite antes de la cuál se debe aceptar o rechazar el presupuesto.",
+    "six": "Tras su confirmación, formalizaremos un contrato en el cual se reflejarán los principales puntos del servicio contratado.",
+    "seven": "Una vez hayamos formalizado dicho contrato procederé a traducir, revisar y corregir sus documentos y se lo enviaré no más tarde de la fecha límite indicada en el encargo.",
+    "eight": "Usted deberá confirmar que ha recibido los documentos traducidos y que los mismos cumplen con sus peticiones específicas.",
+    "nine": "Le enviaré una factura a final de mes. Cada factura vence en un plazo de 30 días desde la fecha de facturación."
   },
   "about": {
-    "first": "Mi nombre es Jessica Regnault. Como licenciada en Derecho por la Universidad de la Laguna y traductora profesional durante más de 3 años, creo en el poder del lenguaje y como forma la percepción del mundo que nos rodea.",
-    "second": "Con más de 2,000,000 de palabras traducidas en campos técnicos y jurídicos, podré serte de ayuda para comunicarte con tus socios, clientes y proveedores en España y Francia. Encontraré las palabras adecuadas."
+    "first": "Mi nombre es Jessica Regnault. Soy licenciada en Derecho y traductora profesional a tiempo completo desde el año 2012. Desde niña, he utilizado mis dos idiomas nativos, el francés y el español en mi día a día, y como tal creo en el poder del lenguaje y en la forma en la que éste determina la perspectiva que tenemos del mundo que nos rodea. Esta perspectiva cambia según el idioma en el que nos expresamos.",
+    "second": "Tras haber traducido cantidad innumerable de documentos de campos muy diversificados, podré serle de ayuda en la comunicación con sus socios, clientes o proveedores de habla francesa y española. Encontraré las palabras adecuadas."
+  },
+  "formation": {
+    "section": {
+      "one": {
+        "title": "Afiliación",
+        "text": "Desde el año 2011 soy miembro del ICATF, Colegio de Abogados en España."
+      },
+      "two": {
+        "title": "Formación",
+        "subtitle": "La formación desempeña un papel importante en la vida de los traductores.",
+        "one": "Herramientas para la localización y la traducción audiovisual - Traduversia",
+        "two": "Derecho de la empresas - Université de Paris Panthéon",
+        "three": "Licenciatura en Derecho - ULL",
+        "four": "Nuevos retos del Derecho Penal -ULL",
+        "five": "Profesiones jurídicas en el marco del Espacio Europeo de Educación Superior - ULL"
+      }
+    }
   }
 }

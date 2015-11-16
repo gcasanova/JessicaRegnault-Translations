@@ -68,6 +68,30 @@ $(document).ready(function(){
          js.src = "//connect.facebook.net/" + fbLng + "/sdk.js";
          fjs.parentNode.insertBefore(js, fjs);
        } (document, 'script', 'facebook-jssdk'));
+
+      $("#read-more-btn-one").click(function() {
+        $(this).fadeOut(function() {
+          $("#read-more-text-one").fadeIn();
+        });
+      });
+
+      $("#read-more-btn-two").click(function() {
+        $(this).fadeOut(function() {
+          $("#read-more-text-two").fadeIn();
+        });
+      });
+
+      $("#read-more-btn-three").click(function() {
+        $(this).fadeOut(function() {
+          $("#read-more-text-three").fadeIn();
+        });
+      });
+
+      $("#read-more-btn-four").click(function() {
+        $(this).fadeOut(function() {
+          $("#read-more-text-four").fadeIn();
+        });
+      });
     }
   }
 });

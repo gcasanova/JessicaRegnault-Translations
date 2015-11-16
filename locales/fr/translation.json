@@ -85,38 +85,14 @@
       "title": "Relecture par un autre traducteur",
       "text": "Sur demande, je peux comprendre la relecture comme un service supplémentaire dans mon offre non contraignante. Un deuxième traducteur qualifié, soit un collègue de confiance de la mine, sera ensuite relire la traduction."
     },
-    "one": {
-      "step": "Étape 1:",
-      "text": "Sélectionnez les documents qui ont besoin de traduction."
-    },
-    "two": {
-      "step": "Étape 2:",
-      "text": "Contactez-moi par mon formulaire de contact, par courriel ou par téléphone et fournir des premiers détails au sujet de votre projet, tels que la date limite, le type de textes, public cible, etc."
-    },
-    "three": {
-      "step": "Étape 3:",
-      "text": "Après notre premier contact, envoyez-moi les textes que vous souhaitez traduire."
-    },
-    "four": {
-      "step": "Étape 4:",
-      "text": "Je vais analyser ces textes et de préparer une offre sans engagement pour vous en tenant compte des détails spécifiques vous me avez donnés, tels que la date limite, le public cible, etc."
-    },
-    "five": {
-      "step": "Étape 5:",
-      "text": "Je vais vous envoyer mon offre non contraignante et de spécifier une date limite à laquelle vous devrez accepter ou refuser mon offre."
-    },
-    "six": {
-      "step": "Étape 6:",
-      "text": "Lors de la confirmation, je vais traduire ou relire vos documents et les envoyer de nouveau à vous jusqu'à ce que le délai donné. Mon processus de traduction comprend l'assurance qualité. Je la preuve tous les documents deux fois et exécuter une vérification d'assurance de la qualité pour les traductions techniques, tels que Xbench."
-    },
-    "seven": {
-      "step": "Étape 7:",
-      "text": "Vous confirmez que vous avez reçu les documents traduits et que les documents répondent à vos normes et demandes spécifiques."
-    },
-    "eight": {
-      "step": "Étape 8:",
-      "text": "Je vais vous envoyer ma facture à la fin du mois. Chaque facture est dû dans les 30 jours à compter de la date de facturation."
-    }
+    "one": "Sélectionnez les documents qui ont besoin de traduction.",
+    "two": "Contactez-moi par mon formulaire de contact, par courriel ou par téléphone et fournir des premiers détails au sujet de votre projet, tels que la date limite, le type de textes, public cible, etc.",
+    "three": "Après notre premier contact, envoyez-moi les textes que vous souhaitez traduire.",
+    "four": "Je vais analyser ces textes et de préparer une offre sans engagement pour vous en tenant compte des détails spécifiques vous me avez donnés, tels que la date limite, le public cible, etc.",
+    "five": "Je vais vous envoyer mon offre non contraignante et de spécifier une date limite à laquelle vous devrez accepter ou refuser mon offre.",
+    "six": "Lors de la confirmation, je vais traduire ou relire vos documents et les envoyer de nouveau à vous jusqu'à ce que le délai donné. Mon processus de traduction comprend l'assurance qualité. Je la preuve tous les documents deux fois et exécuter une vérification d'assurance de la qualité pour les traductions techniques, tels que Xbench.",
+    "seven": "Vous confirmez que vous avez reçu les documents traduits et que les documents répondent à vos normes et demandes spécifiques.",
+    "eight": "Je vais vous envoyer ma facture à la fin du mois. Chaque facture est dû dans les 30 jours à compter de la date de facturation."
   },
   "about": {
     "first": "Mon nom est Jessica Regnault. En tant que diplômé en droit de l'Université de La Laguna et traducteur professionnel depuis plus de 3 ans, je crois en la puissance du langage et comment il forme notre perception du monde qui nous entoure.",

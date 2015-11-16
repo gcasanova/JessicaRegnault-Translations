@@ -56,19 +56,22 @@
             <a href="#page-top"></a>
           </li>
           <li class="page-scroll">
-            <a href="#services" data-i18n="nav.services.name"></a>
+            <a href="#services" data-i18n="nav.services.menu"></a>
           </li>
           <li class="page-scroll">
-            <a href="#quality" data-i18n="nav.quality.name"></a>
+            <a href="#quality" data-i18n="nav.quality.menu"></a>
           </li>
           <li class="page-scroll">
-            <a href="#works" data-i18n="nav.works.name"></a>
+            <a href="#works" data-i18n="nav.works.menu"></a>
           </li>
           <li class="page-scroll">
-            <a href="#about" data-i18n="nav.about.name"></a>
+            <a href="#about" data-i18n="nav.about.menu"></a>
           </li>
           <li class="page-scroll">
-            <a href="#contact" data-i18n="nav.contact.name"></a>
+            <a href="#formation" data-i18n="nav.formation.menu"></a>
+          </li>
+          <li class="page-scroll">
+            <a href="#contact" data-i18n="nav.contact.menu"></a>
           </li>
           <li>
             <div class="dropdown" style="padding-top:8px">
@@ -85,7 +88,7 @@
 
   <!-- Header -->
   <header>
-    <div id="myCarousel" class="container carousel slide" data-interval="7000" data-ride="carousel">
+    <div id="myCarousel" class="container carousel slide" data-interval="0" data-ride="carousel">
     	<!-- Carousel indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -96,23 +99,22 @@
         <div class="carousel-inner">
             <div class="active item">
                 <img src="img/carousel/computer.png" alt="First Slide">
-         		<div class="carousel-caption">
-                  <h1>First slide label</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+         		    <div class="carousel-caption">
+                    <h1 data-i18n="header.carousel.first.title"></h1>
+                    <p data-i18n="header.carousel.first.subtitle"></p>
                 </div>
             </div>
             <div class="item">
-                <img src="img/carousel/compromise.png" alt="Second Slide">
+                <img src="img/carousel/business.png" alt="Second Slide">
                 <div class="carousel-caption">
-                  <h1>Second slide label</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <p style="font-style:italic" data-i18n="header.carousel.second.title"></p>
                 </div>
             </div>
             <div class="item">
-                <img src="img/carousel/business.png" alt="Third Slide">
+                <img src="img/carousel/compromise.png" alt="Third Slide">
                 <div class="carousel-caption">
-                  <h1>Third slide label</h1>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  <h1 data-i18n="header.carousel.third.title"></h1>
+                  <p data-i18n="header.carousel.third.subtitle"></p>
                 </div>
             </div>
         </div>
@@ -126,10 +128,10 @@
       </div>
 
       <div id="header-static-image">
-        <img src="img/carousel/computer.png" class="img-responsive" alt="Computer caption for small devices">
+        <img src="img/mobile_header.png" class="img-responsive" alt="Computer caption for small devices">
         <div class="static-caption">
-              <h1>First slide label</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h3 data-i18n="header.carousel.first.title"></h3>
+              <p data-i18n="header.carousel.first.subtitle"></p>
             </div>
         </div>
       </div>
@@ -140,37 +142,237 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class='overlay' data-i18n="nav.services.name"></h2>
+          <h2 class='overlay' data-i18n="nav.services.section"></h2>
           <h1 class="section-initial" data-i18n="nav.services.initial"><h1>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-3 services-item text-center">
-          <i class="fa fa-5x fa-clipboard services-item-icon"></i>
-          <div class="services-item-text">
-            <p data-i18n="services.technical.title"></p>
-            <p class="services-item-text-details" data-i18n="services.technical.details"></p>
+
+        <!-- for mobile -->
+        <div id="services-mobile">
+          <div class="row">
+            <div class="col-sm-3 services-item text-center">
+              <i class="fa fa-5x fa-clipboard services-item-icon"></i>
+              <div class="services-item-text">
+                <p data-i18n="services.one.title"></p>
+                <p class="services-item-text-details" data-i18n="services.one.details"></p>
+              </div>
+            </div>
+            <div class="col-sm-3 services-item text-center">
+              <i class="fa fa-5x fa-gavel services-item-icon"></i>
+              <div class="services-item-text">
+                <p data-i18n="services.two.title"></p>
+                <p class="services-item-text-details" data-i18n="services.two.details"></p>
+              </div>
+            </div>
+            <div class="col-sm-3 services-item text-center">
+              <i class="fa fa-5x fa-check services-item-icon"></i>
+              <div class="services-item-text">
+                <p data-i18n="services.three.title"></p>
+                <p class="services-item-text-details" data-i18n="services.three.details"></p>
+              </div>
+            </div>
+            <div class="col-sm-3 services-item text-center">
+              <i class="fa fa-5x fa-headphones services-item-icon"></i>
+              <div class="services-item-text">
+                <p data-i18n="services.four.title"></p>
+                <p class="services-item-text-details" data-i18n="services.four.details"></p>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- for mobile -->
+      <div id="services-desktop">
+        <div class="row">
+          <div class="col-sm-3 services-item text-center">
+            <i class="fa fa-5x fa-clipboard services-item-icon"></i>
+          </div>
+          <div class="col-sm-3 services-item text-center">
+            <i class="fa fa-5x fa-gavel services-item-icon"></i>
+          </div>
+          <div class="col-sm-3 services-item text-center">
+            <i class="fa fa-5x fa-check services-item-icon"></i>
+          </div>
+          <div class="col-sm-3 services-item text-center">
+            <i class="fa fa-5x fa-headphones services-item-icon"></i>
           </div>
         </div>
-        <div class="col-sm-3 services-item text-center">
-          <i class="fa fa-5x fa-gavel services-item-icon"></i>
-          <div class="services-item-text">
-            <p data-i18n="services.legal.title"></p>
-            <p class="services-item-text-details" data-i18n="services.legal.details"></p>
+        <div class="row">
+          <div class="col-sm-3 services-item text-center">
+            <div class="services-item-text">
+              <p data-i18n="services.one.title"></p>
+            </div>
+          </div>
+          <div class="col-sm-3 services-item text-center">
+            <div class="services-item-text">
+              <p data-i18n="services.two.title"></p>
+            </div>
+          </div>
+          <div class="col-sm-3 services-item text-center">
+            <div class="services-item-text">
+              <p data-i18n="services.three.title"></p>
+            </div>
+          </div>
+          <div class="col-sm-3 services-item text-center">
+            <div class="services-item-text">
+              <p data-i18n="services.four.title"></p>
+            </div>
           </div>
         </div>
-        <div class="col-sm-3 services-item text-center">
-          <i class="fa fa-5x fa-check services-item-icon"></i>
-          <div class="services-item-text">
-            <p data-i18n="services.proofreading.title"></p>
-            <p class="services-item-text-details" data-i18n="services.proofreading.details"></p>
+        <div class="row">
+          <div class="col-sm-3 services-item text-center">
+            <div class="services-item-text">
+              <p class="services-item-text-details" data-i18n="services.one.details"></p>
+            </div>
+          </div>
+          <div class="col-sm-3 services-item text-center">
+            <div class="services-item-text">
+              <p class="services-item-text-details" data-i18n="services.two.details"></p>
+            </div>
+          </div>
+          <div class="col-sm-3 services-item text-center">
+            <div class="services-item-text">
+              <p class="services-item-text-details" data-i18n="services.three.details"></p>
+            </div>
+          </div>
+          <div class="col-sm-3 services-item text-center">
+            <div class="services-item-text">
+              <p class="services-item-text-details" data-i18n="services.four.details"></p>
+            </div>
           </div>
         </div>
-        <div class="col-sm-3 services-item text-center">
-          <i class="fa fa-5x fa-headphones services-item-icon"></i>
-          <div class="services-item-text">
-            <p data-i18n="services.interpreting.title"></p>
-            <p class="services-item-text-details" data-i18n="services.interpreting.details"></p>
+        <div class="row">
+          <div class="col-sm-3 services-item text-center">
+            <div class="row read-more-btn">
+              <button type="button" id="read-more-btn-one" class="btn btn-success btn-lg" data-i18n="services.read"></button>
+              <div id="read-more-text-one" class="read-more-text">
+                <div class="row">
+                  <div class="col-lg-1 v-align">
+                    <i class="fa fa-circle"></i>
+                  </div>
+                  <div class="col-lg-10 v-align services-list-item-text-div">
+                    <span class="services-item-text services-item-text-details" data-i18n="services.one.more.one"></span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-1 v-align">
+                    <i class="fa fa-circle"></i>
+                  </div>
+                  <div class="col-lg-10 v-align services-list-item-text-div">
+                    <span class="services-item-text services-item-text-details" data-i18n="services.one.more.two"></span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-1 v-align">
+                    <i class="fa fa-circle"></i>
+                  </div>
+                  <div class="col-lg-10 v-align services-list-item-text-div">
+                    <span class="services-item-text services-item-text-details" data-i18n="services.one.more.three"></span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-1 v-align">
+                    <i class="fa fa-circle"></i>
+                  </div>
+                  <div class="col-lg-10 v-align services-list-item-text-div">
+                    <span class="services-item-text services-item-text-details" data-i18n="services.one.more.four"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 services-item text-center">
+            <div class="row read-more-btn">
+              <button type="button" id="read-more-btn-two" class="btn btn-success btn-lg" data-i18n="services.read"></button>
+              <div id="read-more-text-two" class="read-more-text">
+                <div class="row">
+                  <div class="col-lg-1 v-align">
+                    <i class="fa fa-circle"></i>
+                  </div>
+                  <div class="col-lg-10 v-align services-list-item-text-div">
+                    <span class="services-item-text services-item-text-details" data-i18n="services.two.more.one"></span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-1 v-align">
+                    <i class="fa fa-circle"></i>
+                  </div>
+                  <div class="col-lg-10 v-align services-list-item-text-div">
+                    <span class="services-item-text services-item-text-details" data-i18n="services.two.more.two"></span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-1 v-align">
+                    <i class="fa fa-circle"></i>
+                  </div>
+                  <div class="col-lg-10 v-align services-list-item-text-div">
+                    <span class="services-item-text services-item-text-details" data-i18n="services.two.more.three"></span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-1 v-align">
+                    <i class="fa fa-circle"></i>
+                  </div>
+                  <div class="col-lg-10 v-align services-list-item-text-div">
+                    <span class="services-item-text services-item-text-details" data-i18n="services.two.more.four"></span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-1 v-align">
+                    <i class="fa fa-circle"></i>
+                  </div>
+                  <div class="col-lg-10 v-align services-list-item-text-div">
+                    <span class="services-item-text services-item-text-details" data-i18n="services.two.more.five"></span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-1 v-align">
+                    <i class="fa fa-circle"></i>
+                  </div>
+                  <div class="col-lg-10 v-align services-list-item-text-div">
+                    <span class="services-item-text services-item-text-details" data-i18n="services.two.more.six"></span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-1 v-align">
+                    <i class="fa fa-circle"></i>
+                  </div>
+                  <div class="col-lg-10 v-align services-list-item-text-div">
+                    <span class="services-item-text services-item-text-details" data-i18n="services.two.more.seven"></span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-1 v-align">
+                    <i class="fa fa-circle"></i>
+                  </div>
+                  <div class="col-lg-10 v-align services-list-item-text-div">
+                    <span class="services-item-text services-item-text-details" data-i18n="services.two.more.eight"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 services-item text-center">
+            <div class="row read-more-btn">
+              <button type="button" id="read-more-btn-three" class="btn btn-success btn-lg" data-i18n="services.read"></button>
+              <div id="read-more-text-three" class="read-more-text">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                  <p class="services-item-text services-item-text-details" data-i18n="services.three.more.one"></p>
+                  <p class="services-item-text services-item-text-details" data-i18n="services.three.more.two"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 services-item text-center">
+            <div class="row read-more-btn">
+              <button type="button" id="read-more-btn-four" class="btn btn-success btn-lg" data-i18n="services.read"></button>
+              <div id="read-more-text-four" class="read-more-text">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                  <p class="services-item-text services-item-text-details" data-i18n="services.four.more.one"></p>
+                  <p class="services-item-text services-item-text-details" data-i18n="services.four.more.two"></p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -178,57 +380,118 @@
   </section>
 
   <!-- Quality Section -->
-  <section class="success" id="quality">
+  <section id="quality">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class='overlay' data-i18n="nav.quality.name"></h2>
+          <h2 class='overlay' data-i18n="nav.quality.section"></h2>
           <h1 class="section-initial" data-i18n="nav.quality.initial"><h1>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-10 col-lg-offset-1 text-center">
-          <p data-i18n="quality.title"></p>
-          <div class="quality-list text-left">
+        <div style="margin-bottom:50px" class="col-lg-6 text-center">
+          <p style="font-weight:bold" class="quality-list-item-text quality-subtitle" data-i18n="quality.section.one.title"></p>
+          <div class="quality-list text-justify">
             <div class="row quality-list-item">
               <div class="col-lg-1 v-align">
-                <span class="quality-list-item-number">1</span>
+                <i class="fa fa-circle"></i>
               </div>
-              <div class="col-lg-10 v-align">
-                <span class="quality-list-item-text" data-i18n="quality.one"></span>
+              <div class="col-lg-10 v-align quality-list-item-text-div">
+                <span class="quality-list-item-text" data-i18n="quality.section.one.one"></span>
               </div>
             </div>
             <div class="row quality-list-item">
               <div class="col-lg-1 v-align">
-                <span class="quality-list-item-number">2</span>
+                <i class="fa fa-circle"></i>
               </div>
-              <div class="col-lg-10 v-align">
-                <span class="quality-list-item-text" data-i18n="quality.two"></span>
-              </div>
-            </div>
-            <div class="row quality-list-item">
-              <div class="col-lg-1 v-align">
-                <span class="quality-list-item-number">3</span>
-              </div>
-              <div class="col-lg-10 v-align">
-                <span class="quality-list-item-text" data-i18n="quality.three"></span>
+              <div class="col-lg-10 v-align quality-list-item-text-div">
+                <span class="quality-list-item-text" data-i18n="quality.section.one.two"></span>
               </div>
             </div>
             <div class="row quality-list-item">
               <div class="col-lg-1 v-align">
-                <span class="quality-list-item-number">4</span>
+                <i class="fa fa-circle"></i>
               </div>
-              <div class="col-lg-10 v-align">
-                <span class="quality-list-item-text" data-i18n="quality.four"></span>
+              <div class="col-lg-10 v-align quality-list-item-text-div">
+                <span class="quality-list-item-text" data-i18n="quality.section.one.three"></span>
               </div>
             </div>
             <div class="row quality-list-item">
               <div class="col-lg-1 v-align">
-                <span class="quality-list-item-number">5</span>
+                <i class="fa fa-circle"></i>
               </div>
-              <div class="col-lg-10 v-align">
-                <span class="quality-list-item-text" data-i18n="quality.five"></span>
+              <div class="col-lg-10 v-align quality-list-item-text-div">
+                <span class="quality-list-item-text" data-i18n="quality.section.one.four"></span>
               </div>
+            </div>
+            <div class="row quality-list-item">
+              <div class="col-lg-1 v-align">
+                <i class="fa fa-circle"></i>
+              </div>
+              <div class="col-lg-10 v-align quality-list-item-text-div">
+                <span class="quality-list-item-text" data-i18n="quality.section.one.five"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 text-center">
+          <p class="quality-list-item-text quality-subtitle" style="font-weight:bold" data-i18n="quality.section.two.title"></p>
+          <div class="quality-list text-justify">
+            <div class="row quality-list-item">
+              <div class="col-lg-1 v-align">
+                <i class="fa fa-circle"></i>
+              </div>
+              <div class="col-lg-10 v-align quality-list-item-text-div">
+                <span class="quality-list-item-text" data-i18n="quality.section.two.one"></span>
+              </div>
+            </div>
+            <div class="row quality-list-item">
+              <div class="col-lg-1 v-align">
+                <i class="fa fa-circle"></i>
+              </div>
+              <div class="col-lg-10 v-align quality-list-item-text-div">
+                <span class="quality-list-item-text" data-i18n="quality.section.two.two"></span>
+              </div>
+            </div>
+            <div class="row quality-list-item">
+              <div class="col-lg-1 v-align">
+                <i class="fa fa-circle"></i>
+              </div>
+              <div class="col-lg-10 v-align quality-list-item-text-div">
+                <span class="quality-list-item-text" data-i18n="quality.section.two.three"></span>
+              </div>
+            </div>
+            <div class="row quality-list-item">
+              <div class="col-lg-1 v-align">
+                <i class="fa fa-circle"></i>
+              </div>
+              <div class="col-lg-10 v-align quality-list-item-text-div">
+                <span class="quality-list-item-text" data-i18n="quality.section.two.four"></span>
+              </div>
+            </div>
+            <div class="row quality-list-item">
+              <div class="col-lg-1 v-align">
+                <i class="fa fa-circle"></i>
+              </div>
+              <div class="col-lg-10 v-align quality-list-item-text-div">
+                <span class="quality-list-item-text" data-i18n="quality.section.two.five"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="confidentiality" class="row">
+        <div class="col-lg-12 text-center">
+          <p class="quality-list-item-text quality-subtitle" style="font-weight:bold" data-i18n="quality.section.three.title"></p>
+          <div class="quality-list">
+            <div class="row quality-list-item">
+              <span class="quality-list-item-text" data-i18n="quality.section.three.one"></span>
+            </div>
+            <div class="row quality-list-item">
+              <span class="quality-list-item-text" data-i18n="quality.section.three.two"></span>
+            </div>
+            <div class="row quality-list-item">
+              <span class="quality-list-item-text" data-i18n="quality.section.three.three"></span>
             </div>
           </div>
         </div>
@@ -241,103 +504,180 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class='overlay' data-i18n="nav.works.name"></h2>
+          <h2 class='overlay' data-i18n="nav.works.section"></h2>
           <h1 class="section-initial" data-i18n="nav.works.initial"><h1>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-10 col-lg-offset-1 text-center">
           <p class="works-subtitle" data-i18n="works.title"></p>
-          <div class="works-list text-left">
+          <div class="works-list">
             <div class="row works-list-item">
               <div class="col-lg-2 v-align">
-                <span class="step" data-i18n="works.one.step"></span>
+                <span class="works-list-item-number">1</span>
               </div>
-              <div class="col-lg-9 v-align">
-                <span class="works-list-item-text" data-i18n="works.one.text"></span>
+              <div class="col-lg-9 v-align works-list-item-text-div text-left">
+                <span class="works-list-item-text" data-i18n="works.one"></span>
               </div>
             </div>
             <div class="row works-list-item">
               <div class="col-lg-2 v-align">
-                <span class="step" data-i18n="works.two.step"></span>
+                <span class="works-list-item-number">2</span>
               </div>
-              <div class="col-lg-9 v-align">
-                <span class="works-list-item-text" data-i18n="works.two.text"></span>
-              </div>
-            </div>
-            <div class="row works-list-item">
-              <div class="col-lg-2 v-align">
-                <span class="step" data-i18n="works.three.step"></span>
-              </div>
-              <div class="col-lg-9 v-align">
-                <span class="works-list-item-text" data-i18n="works.three.text"></span>
+              <div class="col-lg-9 v-align works-list-item-text-div text-left">
+                <span class="works-list-item-text" data-i18n="works.two"></span>
               </div>
             </div>
             <div class="row works-list-item">
               <div class="col-lg-2 v-align">
-                <span class="step" data-i18n="works.four.step"></span>
+                <span class="works-list-item-number">3</span>
               </div>
-              <div class="col-lg-9 v-align">
-                <span class="works-list-item-text" data-i18n="works.four.text"></span>
-              </div>
-            </div>
-            <div class="row works-list-item">
-              <div class="col-lg-2 v-align">
-                <span class="step" data-i18n="works.five.step"></span>
-              </div>
-              <div class="col-lg-9 v-align">
-                <span class="works-list-item-text" data-i18n="works.five.text"></span>
+              <div class="col-lg-9 v-align works-list-item-text-div text-left">
+                <span class="works-list-item-text" data-i18n="works.three"></span>
               </div>
             </div>
             <div class="row works-list-item">
               <div class="col-lg-2 v-align">
-                <span class="step" data-i18n="works.six.step"></span>
+                <span class="works-list-item-number">4</span>
               </div>
-              <div class="col-lg-9 v-align">
-                <span class="works-list-item-text" data-i18n="works.six.text"></span>
-              </div>
-            </div>
-            <div class="row works-list-item">
-              <div class="col-lg-2 v-align">
-                <span class="step" data-i18n="works.seven.step"></span>
-              </div>
-              <div class="col-lg-9 v-align">
-                <span class="works-list-item-text" data-i18n="works.seven.text"></span>
+              <div class="col-lg-9 v-align works-list-item-text-div text-left">
+                <span class="works-list-item-text" data-i18n="works.four"></span>
               </div>
             </div>
             <div class="row works-list-item">
               <div class="col-lg-2 v-align">
-                <span class="step" data-i18n="works.eight.step"></span>
+                <span class="works-list-item-number">5</span>
               </div>
-              <div class="col-lg-9 v-align">
-                <span class="works-list-item-text" data-i18n="works.eight.text"></span>
+              <div class="col-lg-9 v-align works-list-item-text-div text-left">
+                <span class="works-list-item-text" data-i18n="works.five"></span>
+              </div>
+            </div>
+            <div class="row works-list-item">
+              <div class="col-lg-2 v-align">
+                <span class="works-list-item-number">6</span>
+              </div>
+              <div class="col-lg-9 v-align works-list-item-text-div text-left">
+                <span class="works-list-item-text" data-i18n="works.six"></span>
+              </div>
+            </div>
+            <div class="row works-list-item">
+              <div class="col-lg-2 v-align">
+                <span class="works-list-item-number">7</span>
+              </div>
+              <div class="col-lg-9 v-align works-list-item-text-div text-left">
+                <span class="works-list-item-text" data-i18n="works.seven"></span>
+              </div>
+            </div>
+            <div class="row works-list-item">
+              <div class="col-lg-2 v-align">
+                <span class="works-list-item-number">8</span>
+              </div>
+              <div class="col-lg-9 v-align works-list-item-text-div text-left">
+                <span class="works-list-item-text" data-i18n="works.eight"></span>
+              </div>
+            </div>
+            <div class="row works-list-item">
+              <div class="col-lg-2 v-align">
+                <span class="works-list-item-number">9</span>
+              </div>
+              <div class="col-lg-9 v-align works-list-item-text-div text-left">
+                <span class="works-list-item-text" data-i18n="works.nine"></span>
               </div>
             </div>
           </div>
           <p class="works-subtitle works-subsection" data-i18n="works.security.title"></p>
-          <p data-i18n="works.security.text"></p>
-          <p class="works-subtitle works-subsection" data-i18n="works.proofreading.title"></p>
-          <p data-i18n="works.proofreading.text"></p>
+          <p class="works-list-item-text" data-i18n="works.security.text"></p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- About Section -->
-  <section class="success" id="about">
+  <section id="about">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-lg-offset-4 text-center">
-          <h2 class='overlay' data-i18n="nav.about.name"></h2>
-          <h1 class="section-initial" data-i18n="nav.about.initial"><h1>
+        <div id="j-photo" class="col-lg-6 text-center">
+          <img src="img/jessica.png" alt="">
+        </div>
+        <div class="col-lg-6 text-center">
+          <div class="row">
+            <h2 style="top:19%" class='overlay' data-i18n="nav.about.section"></h2>
+            <h1 class="section-initial" data-i18n="nav.about.initial"><h1>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <p data-i18n="about.first"></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <p data-i18n="about.second"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formation Section -->
+  <section id="formation">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class='overlay' data-i18n="nav.formation.section"></h2>
+          <h1 class="section-initial" data-i18n="nav.formation.initial"><h1>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-4 col-lg-offset-4">
-          <p data-i18n="about.first"></p>
+        <div style="padding-bottom: 30px" class="col-lg-6 text-center">
+          <p class="formation-subtitle" data-i18n="formation.section.one.title"></p>
+          <p class="formation-list-item-text" data-i18n="formation.section.one.text"></p>
+          <div style="margin-top: 5%" class="text-center">
+            <img id="icatf-img" src="img/icatf.png" alt="">
+          </div>
         </div>
-        <div class="col-lg-4">
-          <p data-i18n="about.second"></p>
+        <div class="col-lg-6 text-center">
+          <p class="formation-subtitle" data-i18n="formation.section.two.title"></p>
+          <p class="formation-list-item-text" data-i18n="formation.section.two.subtitle"></p>
+          <div class="row quality-list-item">
+            <div class="col-lg-2 v-align">
+              <span class="formation-list-item-number">2015</span>
+            </div>
+            <div class="col-lg-9 v-align formation-list-item-text-div text-left">
+              <span class="quality-list-item-text" data-i18n="formation.section.two.one"></span>
+            </div>
+          </div>
+          <div class="row quality-list-item">
+            <div class="col-lg-2 v-align">
+              <span class="formation-list-item-number">2014</span>
+            </div>
+            <div class="col-lg-9 v-align formation-list-item-text-div text-left">
+              <span class="quality-list-item-text" data-i18n="formation.section.two.two"></span>
+            </div>
+          </div>
+          <div class="row quality-list-item">
+            <div class="col-lg-2 v-align">
+              <span class="formation-list-item-number">2010</span>
+            </div>
+            <div class="col-lg-9 v-align formation-list-item-text-div text-left">
+              <span class="quality-list-item-text" data-i18n="formation.section.two.three"></span>
+            </div>
+          </div>
+          <div class="row quality-list-item">
+            <div class="col-lg-2 v-align">
+              <span class="formation-list-item-number">2006</span>
+            </div>
+            <div class="col-lg-9 v-align formation-list-item-text-div text-left">
+              <span class="quality-list-item-text" data-i18n="formation.section.two.four"></span>
+            </div>
+          </div>
+          <div class="row quality-list-item">
+            <div class="col-lg-2 v-align">
+              <span class="formation-list-item-number">2006</span>
+            </div>
+            <div class="col-lg-9 v-align formation-list-item-text-div text-left">
+              <span class="quality-list-item-text" data-i18n="formation.section.two.five"></span>
+            </div>
         </div>
       </div>
     </div>
@@ -348,7 +688,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class='overlay' data-i18n="nav.contact.name"></h2>
+          <h2 class='overlay' data-i18n="nav.contact.section"></h2>
           <h1 class="section-initial" data-i18n="nav.contact.initial"><h1>
         </div>
       </div>
@@ -357,29 +697,29 @@
           <form name="sentMessage" id="contactForm" novalidate>
             <div class="row control-group">
               <div class="form-group col-xs-12 floating-label-form-group controls">
-                <label data-i18n="contact.name"></label>
-                <input type="text" id="name" class="form-control" data-i18n="[placeholder]contact.name;[data-validation-required-message]contact.error.required.name" required>
+                <label data-i18n="contact.name.label"></label>
+                <input type="text" id="name" class="form-control" data-i18n="[placeholder]contact.name.placeholder;[data-validation-required-message]contact.error.required.name" required>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="row control-group">
               <div class="form-group col-xs-12 floating-label-form-group controls">
-                <label data-i18n="contact.email"></label>
-                <input type="email" id="email" class="form-control" data-i18n="[placeholder]contact.email;[data-validation-required-message]contact.error.required.email;[data-validation-email-message]contact.error.email" required>
+                <label data-i18n="contact.email.label"></label>
+                <input type="email" id="email" class="form-control" data-i18n="[placeholder]contact.email.placeholder;[data-validation-required-message]contact.error.required.email;[data-validation-email-message]contact.error.email" required>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="row control-group">
               <div class="form-group col-xs-12 floating-label-form-group controls">
-                <label data-i18n="contact.telephone"></label>
-                <input type="tel" id="phone" class="form-control" data-i18n="[placeholder]contact.telephone;[data-validation-required-message]contact.error.required.telephone" required>
+                <label data-i18n="contact.telephone.label"></label>
+                <input type="tel" id="phone" class="form-control" data-i18n="[placeholder]contact.telephone.placeholder">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="row control-group">
               <div class="form-group col-xs-12 floating-label-form-group controls">
-                <label data-i18n="contact.message"></label>
-                <textarea rows="5" id="message" class="form-control" data-i18n="[placeholder]contact.message;[data-validation-required-message]contact.error.required.message" required></textarea>
+                <label data-i18n="contact.message.label"></label>
+                <textarea rows="5" id="message" class="form-control" data-i18n="[placeholder]contact.message.placeholder;[data-validation-required-message]contact.error.required.message" required></textarea>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
@@ -402,7 +742,7 @@
       <div class="container">
         <div class="row">
           <div class="footer-col col-md-6">
-            <h3 data-i18n="nav.contact.name"></h3>
+            <h3 data-i18n="nav.contact.menu"></h3>
             <p><i class="fa fa-phone footer-icon"></i>+34 626 91 40 91</p>
             <p><i class="fa fa-pencil footer-icon"></i><span id="email-span"></span></p>
           </div>
