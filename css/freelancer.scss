@@ -588,7 +588,7 @@ footer .footer-below {
 .carousel-caption {
     left: 10%;
     right: 10%;
-    bottom: 80px;
+    bottom: 100px;
     padding-right: 10px;
     padding-left: 10px;
     padding-bottom: 0px;
@@ -650,6 +650,7 @@ footer .footer-below {
     display: none;
 }
 
-.item.next.left > .carousel-caption {
-    bottom: 100px;
+// avoids carousel state transitions 'jump' effect
+.item.next.left > .carousel-caption, .item.prev.right > .carousel-caption {
+    bottom: 120px;
 }
