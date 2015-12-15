@@ -1,25 +1,25 @@
-$(document).ready(function(){
+$(document).ready(function() {
   i18n.init(function() {
-      $(".index").i18n();
-      selectLanguage(window.i18n.lng().substring(0, 2), false);
+    $(".index").i18n();
+    selectLanguage(window.i18n.lng().substring(0, 2), false);
 
-      var s = document.createElement('script');
-      s.type = "text/javascript";
-      s.async = false;
-      s.src = "js/jqBootstrapValidation.js";
-      var fs = document.getElementsByTagName('script')[0];
-      fs.parentNode.insertBefore(s, fs);
+    var s = document.createElement('script');
+    s.type = "text/javascript";
+    s.async = false;
+    s.src = "js/jqBootstrapValidation.js";
+    var fs = document.getElementsByTagName('script')[0];
+    fs.parentNode.insertBefore(s, fs);
 
-      s = document.createElement('script');
-      s.type = "text/javascript";
-      s.async = false;
-      s.src = "js/contact_me.js";
-      fs = document.getElementsByTagName('script')[0];
-      fs.parentNode.insertBefore(s, fs);
+    s = document.createElement('script');
+    s.type = "text/javascript";
+    s.async = false;
+    s.src = "js/contact_me.js";
+    fs = document.getElementsByTagName('script')[0];
+    fs.parentNode.insertBefore(s, fs);
 
-      var hostname = "gmail.com";
-      var username = "jessica.regnault.translations";
-      $("#email-span").html('<a href="mailto:' + username + '@' + hostname + '">' + username + '@' + hostname + '</a>');
+    var hostname = "gmail.com";
+    var username = "jessica.regnault.translations";
+    $("#email-span").html('<a href="mailto:' + username + '@' + hostname + '">' + username + '@' + hostname + '</a>');
   });
 
   function selectLanguage(lngCode, resetValidation) {
@@ -55,19 +55,22 @@ $(document).ready(function(){
       // Facebook "Recommend" button
       window.fbAsyncInit = function() {
         FB.init({
-          appId      : '1894639840760379',
-          xfbml      : true,
-          version    : 'v2.4'
+          appId: '1894639840760379',
+          xfbml: true,
+          version: 'v2.4'
         });
       };
 
-      (function(d, s, id){
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) {return;}
-         js = d.createElement(s); js.id = id;
-         js.src = "//connect.facebook.net/" + fbLng + "/sdk.js";
-         fjs.parentNode.insertBefore(js, fjs);
-       } (document, 'script', 'facebook-jssdk'));
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+          return;
+        }
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/" + fbLng + "/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
 
       $("#read-more-btn-one").click(function() {
         $(this).fadeOut(function() {

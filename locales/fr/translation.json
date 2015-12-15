@@ -1,101 +1,183 @@
 {
   "nav": {
     "services": {
-      "name": "Services",
-      "initial": "S"
+      "initial": "S",
+      "menu": "Services",
+      "section": "Services"
     },
     "quality": {
-      "name": "Qualité",
-      "initial": "Q"
+      "initial": "Q",
+      "menu": "Qualité",
+      "section": "Qualité"
     },
     "works": {
-      "name": "Comment Ça Marche",
-      "initial": "C"
+      "initial": "C",
+      "menu": "Comment ça marche",
+      "section": "Comment ça marche"
     },
     "about": {
-      "name": "A propos de moi",
-      "initial": "A"
+      "initial": "A",
+      "menu": "À propos de moi",
+      "section": "À propos de moi"
+    },
+    "formation": {
+      "initial": "F",
+      "menu": "Formation",
+      "section": "Formation"
     },
     "contact": {
-      "name": "Contact",
-      "initial": "C"
+      "initial": "C",
+      "menu": "Contact",
+      "section": "Contact"
     }
   },
   "header": {
-    "profession": "Traductrice Indépendante - Baccalauréat en Droit"
+    "carousel": {
+      "first": {
+        "title": "Traductions, Interprétation, Révision et correction",
+        "subtitle": "Français, Espagnol, Anglais"
+      },
+      "second": {
+        "title": "\"La clef d’une communication efficace\""
+      },
+      "third": {
+        "title": "Attention personnalisée",
+        "subtitle": "Principes de base: Engagement envers le client, sécurité, confidentialité, respect du délai"
+      }
+    }
   },
   "contact": {
-    "name": "Nom Complet",
-    "email": "Email",
-    "telephone": "Téléphone",
-    "message": "Message",
+    "name": {
+      "label": "Nom et prénom",
+      "placeholder": "Nom et prénom"
+    },
+    "email": {
+      "label": "E-mail",
+      "placeholder": "E-mail"
+    },
+    "telephone": {
+      "label": "Téléphone",
+      "placeholder": "Téléphone (optionnel)"
+    },
+    "message": {
+      "label": "Message",
+      "placeholder": "Message"
+    },
     "send": "Envoyer",
     "error": {
       "required": {
-        "name": "Entrez votre nom s'il vous plaît.",
-        "email": "Entrez votre adresse e-mail s'il vous plaît.",
-        "telephone": "Entrez votre numéro de téléphone s'il vous plaît.",
-        "message": "Entrez un message s'il vous plaît."
+        "name": "Introduire votre nom et prénom.",
+        "email": "Introduire votre adresse e-mail.",
+        "telephone": "Introduire votre numéro de téléphone.",
+        "message": "Introduire un message."
       },
       "email": "Adresse e-mail incorrecte."
     }
   },
   "footer": {
-    "location": {
-      "title": "Adresse",
-      "first": "El Médano, Tenerife",
-      "second": "Îles Canaries, Espagne"
-    },
     "web": "Réseaux Sociaux",
-    "developer" : "Développé par"
+    "developer": "Développé par"
   },
   "services": {
-    "technical": {
-      "title": "Traduction de documents techniques",
-      "details": "Évitez les produits défectueux et d'assurer une productivité accrue."
+    "read": "En savoir plus",
+    "one": {
+      "title": "TRADUCTIONS DE DOCUMENTS",
+      "details": "Tout document doit être correctement traduit. Évitez les produits défectueux et garantissez une meilleure productivité",
+      "more": {
+        "one": "Courriers électroniques",
+        "two": "CV",
+        "three": "Lettres et correspondance",
+        "four": "Sites internet de contenu général"
+      }
     },
-    "legal": {
-      "title": "Traduction de documents juridiques",
-      "details": "Jamais vous soucier que les textes juridiques sont mal traduits."
+    "two": {
+      "title": "SPÉCIALISATIONS",
+      "details": "Afin d’utiliser les mots adéquats dans chaque contexte. Fini les erreurs de traduction téchnique",
+      "more": {
+        "one": "Traductions audiovisuelles",
+        "two": "Rapports financiers",
+        "three": "Comptes-rendu réunions",
+        "four": "Manuels et méthodologies",
+        "five": "Traductions juridiques",
+        "six": "Sites internet de contenu technique",
+        "seven": "IT/Logiciels",
+        "eight": "Traductions techniques"
+      }
     },
-    "proofreading": {
-      "title": "Relecture des traductions techniques et juridiques",
-      "details": "Parce que quatre yeux voient plus de deux."
+    "three": {
+      "title": "REVISION ET CORRECTION",
+      "details": "Double contrôle",
+      "more": {
+        "one": "Le service de révision bilingüe vous permet de garantir la révision d’une traduction tout en comparant le texte original et le texte cible et corriger et améliorer le résultat final.",
+        "two": "D’un autre côté, le service de correction vous permet de corriger et d’améliorer des aspects tels que la grammaire, l’orthographe, et l’orthotypographie jusqu’à peaufiner le texte de façon qu’il atteigne les normes de qualité exigées par les clients de votre entreprise, établissements d’enseignement supérieur ou bien les organisations internationales."
+      }
     },
-    "interpreting": {
-      "title": "Interprétation",
-      "details": "Assurez-vous que vos clients vous comprenez toujours."
+    "four": {
+      "title": "INTERPRETATION",
+      "details": "Assurez-vous que vos clients vous comprennent",
+      "more": {
+        "one": "Avec le service d’interprétation vous pouvez garantir que tout ce que vous souhaitez transmettre est partagé, mot à mot.",
+        "two": "Avec une solide expérience en interprétation consécutive et de liaison, j’ai participé comme interprète au sein des Tribunaux, formations, réunions, festivités et évènements internationaux à Bruxelles, Barcelone et Tenerife."
+      }
     }
   },
   "quality": {
-    "title": "Je adhérer à la campagne “Qualité in Translation”. Les dispositions suivantes sont applicables pour chaque projet que je accept:",
-    "one": "Je cherche pour la meilleure traduction possible à chaque fois.",
-    "two": "Je reconnais que les affectations qui me permettent de lutter pour cet objectif.",
-    "three": "Je travaille uniquement en français et espagnol, mes langues maternelles.",
-    "four": "Je reconnais que les affectations dans mes domaines de spécialisation.",
-    "five": "Je cherche constamment à améliorer grâce à la rétroaction constructive et la formation continue."
+    "section": {
+      "one": {
+        "title": "Critères essentiels pour garantir un service de qualité",
+        "one": "Le choix correct dans la langue cible des aspects fondamentaux comme la terminologie, le vocabulaire, les expressions, le langage technique et spécifique de chaque secteur.",
+        "two": "L’utilisation correcte dans la langue cible de la grammaire, de l’orthographe, de la ponctuation et de la syntaxe, ainsi que la transcription adéquate des dates, noms, données, etc.",
+        "three": "L’adaptation du style et formes du langage en fonction de chaque texte.",
+        "four": "Précision et rapidité en ce qui concerne les réponses apportées aux consultations formulées par les clients.",
+        "five": "Respect des délais et exigences d’envoi."
+      },
+      "two": {
+        "title": "Les exigences suivantes sont appliquées à chaque projet que j’accepte",
+        "one": "Efficacité afin d’obtenir la meilleure traduction.",
+        "two": "Je traduis en français et en espagnol, mes langues maternelles.",
+        "three": "J’accepte uniquement des textes dans mes domaines de spécialisation."
+      },
+      "three": {
+        "title": "La confidentialité de vos documents",
+        "one": "Conformément à l’Organisation Internationale de Normalisation (ISO) la nature du travail effectué et quelconque information transmise par le client à JR TRANSLATIONS seront traitées avec la plus grande confidentialité.",
+        "two": "Ces garanties ne sont pas applicables dans le cas où JR TRANSLATIONS serait obligée par la loi à communiquer ces informations."
+      }
+    }
   },
   "works": {
-    "title": "Traduction/processus de relecture",
+    "title": "Procédure de traduction/révision/correction",
     "security": {
-      "title": "La sécurité des données",
-      "text": "Sur demande, je peux mettre en place un serveur FTP protégé par mot de passe pour l'envoi et la réception de vos documents. Je sauvegarder tous mes traductions et conserver des copies protégées par mot de passe jusqu'à ce que mes clients les ont reçues. Tous les documents sont gardés confidentiels."
+      "title": "Sécurité de vos données",
+      "text": "Sous demande, je peux configurer un serveur FTP protégé avec un mot de passe pour envoyer et recevoir vos documents. J’effectue des copies de sécurité de toutes mes traductions et je conserve des copies protégées avec des mots de passe jusqu’au moment de l’envoi des documents. Tous les documents sont traités de façon confidentielle."
     },
-    "proofreading": {
-      "title": "Relecture par un autre traducteur",
-      "text": "Sur demande, je peux comprendre la relecture comme un service supplémentaire dans mon offre non contraignante. Un deuxième traducteur qualifié, soit un collègue de confiance de la mine, sera ensuite relire la traduction."
-    },
-    "one": "Sélectionnez les documents qui ont besoin de traduction.",
-    "two": "Contactez-moi par mon formulaire de contact, par courriel ou par téléphone et fournir des premiers détails au sujet de votre projet, tels que la date limite, le type de textes, public cible, etc.",
-    "three": "Après notre premier contact, envoyez-moi les textes que vous souhaitez traduire.",
-    "four": "Je vais analyser ces textes et de préparer une offre sans engagement pour vous en tenant compte des détails spécifiques vous me avez donnés, tels que la date limite, le public cible, etc.",
-    "five": "Je vais vous envoyer mon offre non contraignante et de spécifier une date limite à laquelle vous devrez accepter ou refuser mon offre.",
-    "six": "Lors de la confirmation, je vais traduire ou relire vos documents et les envoyer de nouveau à vous jusqu'à ce que le délai donné. Mon processus de traduction comprend l'assurance qualité. Je la preuve tous les documents deux fois et exécuter une vérification d'assurance de la qualité pour les traductions techniques, tels que Xbench.",
-    "seven": "Vous confirmez que vous avez reçu les documents traduits et que les documents répondent à vos normes et demandes spécifiques.",
-    "eight": "Je vais vous envoyer ma facture à la fin du mois. Chaque facture est dû dans les 30 jours à compter de la date de facturation."
+    "one": "Contactez moi à travers le formulaire, par e-mail ou si vous préférez, par téléphone et donnez moi les premiers détails sur votre projet, tels que le délai, le format du document, quel service souhaitez-vous, etc. Je n’accepterais aucune mission si je ne suis pas en mesure de l’exécuter.",
+    "two": "Suite à notre premier contact, envoyez moi les documents que vous souhaitez traduire dans leur format original. Les traductions sous format spécial qui ralentissent ou qui rendent difficile la traduction, engendrent un supplément indiqué préalablement sur le devis (par exemple: format HTML, fichiers graphiques, papier, etc)",
+    "three": "J’analyserais les textes et établirais un devis tenant compte des détails spécifiques donnés précédemment.",
+    "four": "Je vous adresserais un devis gratuit et sans engagement vous indiquant une date limite. Vous pourrez accepter ou refuser celui-ci.",
+    "five": "Pour une réponse positive et après confirmation des deux parties, nous conclurons un contrat avec les principaux points du service solicité. Je vous indiquerais les modalités de paiements et le montant de l’acompte payable à la commande.",
+    "six": "Lorsque le contrat aura été validé je procéderai à la traduction de vos documents en respectant les délais.",
+    "seven": "Je vous enverrai une facture détaillée indiquant la date d’échéance."
   },
   "about": {
-    "first": "Mon nom est Jessica Regnault. En tant que diplômé en droit de l'Université de La Laguna et traducteur professionnel depuis plus de 3 ans, je crois en la puissance du langage et comment il forme notre perception du monde qui nous entoure.",
-    "second": "Avec plus de 2.000.000 de mots traduits dans les domaines techniques et juridiques, je vais vous aider à communiquer avec succès avec vos partenaires, clients et fournisseurs en France et en Espagne. Je vais trouver les mots justes."
+    "first": "Je m’appelle Jessica Regnault. Je suis titulaire d’une maîtrise en Droit et suis traductrice professionnelle à temps plein depuis l’année 2012. Dès l’enfance, j’ai la capacité d’utiliser  mes deux langues maternelles, le français et l’espagnol, et en tant que tel, je crois au pouvoir du langage et la façon dont celui-ci détermine la perspective du monde qui nous entoure.",
+    "second": "Ayant traduit à travers mon activité professionnelle des documents dans des domaines diversifiés, je peux vous aider à communiquer avec vos associés, clients ou fournisseurs de langue française et espagnole. Je trouverais les mots justes et précis."
+  },
+  "formation": {
+    "section": {
+      "one": {
+        "title": "Adhésion",
+        "text": "Depuis l’année 2011 je suis membre du barreau ICATF, barreau en Espagne."
+      },
+      "two": {
+        "title": "Formation",
+        "subtitle": "La formation joue un rôle important dans la vie d'un traducteur.",
+        "one": "Outils pour la localisation et la traduction audiovisuelle - Traduversia",
+        "two": "Droit des entreprises - Université de Paris Panthéon",
+        "three": "Business English - IFC",
+        "four": "Maîtrise en Droit - ULL",
+        "five": "Nouveaux défis du Droit Pénal - ULL",
+        "six": "Métiers juridiques dans le cadre de l’espace européen d’enseignement supérieur - ULL"
+      }
+    }
   }
 }

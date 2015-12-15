@@ -1,34 +1,68 @@
 {
   "nav": {
     "services": {
-      "name": "Services",
-      "initial": "S"
+      "initial": "S",
+      "menu": "Services",
+      "section": "Services"
     },
     "quality": {
-      "name": "Quality",
-      "initial": "Q"
+      "initial": "Q",
+      "menu": "Quality",
+      "section": "Quality"
     },
     "works": {
-      "name": "How It Works",
-      "initial": "H"
+      "initial": "H",
+      "menu": "How It Works",
+      "section": "How It Works"
     },
     "about": {
-      "name": "About Me",
-      "initial": "A"
+      "initial": "A",
+      "menu": "About Me",
+      "section": "About Me"
+    },
+    "formation": {
+      "initial": "E",
+      "menu": "Education",
+      "section": "Education"
     },
     "contact": {
-      "name": "Contact",
-      "initial": "C"
+      "initial": "C",
+      "menu": "Contact",
+      "section": "Contact"
     }
   },
   "header": {
-    "profession": "Freelance Translator - Graduated Lawyer"
+    "carousel": {
+      "first": {
+        "title": "Translations, Interpreting, Review and corrections",
+        "subtitle": "English, French, Spanish"
+      },
+      "second": {
+        "title": "\"Strive for an effective communication\""
+      },
+      "third": {
+        "title": "Personalised attention",
+        "subtitle": "Basic principles: Commitment, security, confidentiality, punctuality"
+      }
+    }
   },
   "contact": {
-    "name": "Name",
-    "email": "Email Address",
-    "telephone": "Phone Number",
-    "message": "Message",
+    "name": {
+      "label": "Name",
+      "placeholder": "Name"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "Email"
+    },
+    "telephone": {
+      "label": "Phone Number",
+      "placeholder": "Phone Number (optional)"
+    },
+    "message": {
+      "label": "Message",
+      "placeholder": "Message"
+    },
     "send": "Send",
     "error": {
       "required": {
@@ -41,61 +75,109 @@
     }
   },
   "footer": {
-    "location": {
-      "title": "Location",
-      "first": "El Medano, Tenerife",
-      "second": "Canary Islands, Spain"
-    },
     "web": "Around the web",
-    "developer" : "Developed by"
+    "developer": "Developed by"
   },
   "services": {
-    "technical": {
-      "title": "Translation of technical documents",
-      "details": "Avoid faulty products and ensure increased productivity."
+    "read": "Read More",
+    "one": {
+      "title": "GENERAL TRANSLATIONS",
+      "details": "Because simple things ought to be correctly translated as well. Avoid low quality results and ensure high productivity",
+      "more": {
+        "one": "E-mails",
+        "two": "Curriculum Vitae",
+        "three": "Letters and correspondence",
+        "four": "General content websites"
+      }
     },
-    "legal": {
-      "title": "Translation of legal documents",
-      "details": "Never worry again that legal texts are mistranslated."
+    "two": {
+      "title": "SPECIALISED TRANSLATIONS",
+      "details": "Use the right words in every context. Do not ever again worry about translations mistakes in technical papers",
+      "more": {
+        "one": "Audiovisual translations",
+        "two": "Financial reports",
+        "three": "Meeting minutes",
+        "four": "Manuals and methodologies",
+        "five": "Translation of legal documents",
+        "six": "Specialised content websites",
+        "seven": "Software translations",
+        "eight": "Specific terminology translations"
+      }
     },
-    "proofreading": {
-      "title": "Proofreading of technical and legal translations",
-      "details": "Because four eyes see more than two."
+    "three": {
+      "title": "REVIEW AND CORRECT",
+      "details": "Because four eyes see more than two",
+      "more": {
+        "one": "The bilingual review service offers the possibility to review a translated document by comparing it with the original text in order to correct and improve the translation quality.",
+        "two": "Moreover, the correction service provides the opportunity to correct and improve the grammar, spelling and orthotypography to polish the text so that the final result reaches the quality standards required by, among others, customers of your business, higher education institutions and international organisations."
+      }
     },
-    "interpreting": {
-      "title": "Interpreting",
-      "details": "Make sure your clients always understand you."
+    "four": {
+      "title": "INTERPRETING",
+      "details": "Make sure your clients always understand you",
+      "more": {
+        "one": "With the interpretation service, you can be calm and sure that everything you want to convey will be shared verbatim.",
+        "two": "With extensive experience in consecutive and liaison interpreting, I participated as an interpreter in courts, training courses, meetings, celebrations and international events in Brussels, Barcelona and Santa Cruz de Tenerife."
+      }
     }
   },
   "quality": {
-    "title": "I adhere to the “Quality in Translation” campaign. The following requirements apply for every project I accept:",
-    "one": "I strive for the best possible translation every time.",
-    "two": "I only accept assignments that allow me to strive for this goal.",
-    "three": "I only work into French and Spanish, my native languages.",
-    "four": "I only accept assignments in my fields of specialization.",
-    "five": "I constantly strive to improve through constructive feedback and ongoing training."
+    "section": {
+      "one": {
+        "title": "Basic criteria to ensure quality service",
+        "one": "The right choice of key issues such as terminology, vocabulary, expressions, jargon and slang specific to each sector in the target language.",
+        "two": "Proper use of grammar, spelling, punctuation and syntax, and the correct transcription of dates, names, dates, etc. in the target language.",
+        "three": "The adequacy of style and language forms for the context of the text.",
+        "four": "Fast and accurate responses to queries raised by customers.",
+        "five": "Meeting deadlines and delivery requirements."
+      },
+      "two": {
+        "title": "The following requirements apply to each project that I accept",
+        "one": "I strive to get the best possible translation each time.",
+        "two": "I only translate into French and Spanish, my native languages.",
+        "three": "I only accept orders in my specialty fields."
+      },
+      "three": {
+        "title": "Confidentiality of your documents",
+        "one": "In accordance with the International Organisation for Standardisation (ISO), the nature of the work performed and any information transmitted by the customer to JR TRANSLATIONS will be subject to strict confidentiality.",
+        "two": "These guarantees do not apply in the case that JR TRANSLATIONS is required by law to disclose such information."
+      }
+    }
   },
   "works": {
-    "title": "Translation/proofreading process",
+    "title": "Translation/proofreading/correction process",
     "security": {
       "title": "Data security",
       "text": "Upon request, I can set up a password-protected FTP server for sending and receiving your documents. I back up all my translations and keep password-protected copies until my clients have received them. All documents are kept confidential."
     },
-    "proofreading": {
-      "title": "Proofreading by another translator",
-      "text": "Upon request, I can include proofreading as an additional service in my non-binding offer. A second qualified translator, i.e. a trusted colleague of mine, will then proofread the translation."
-    },
-    "one": "Select the documents that need translation.",
-    "two": "Contact me via my contact form, by email or phone and provide first details about your project, such as the deadline, type of texts, target audience etc.",
-    "three": "After our first contact, send me the texts that you would like to be translated.",
-    "four": "I will analyse these texts and prepare a non-binding offer for you taking into account the specific details you gave me, such as the deadline, target audience etc.",
-    "five": "I will send you my non-binding offer and specify a deadline by which you will have to either accept or decline my offer.",
-    "six": "Upon confirmation, I will translate or proofread your documents and send them back to you until the given deadline. My translation process includes quality assurance. I proof all documents twice and run a quality assurance check for technical translations, such as Xbench.",
-    "seven": "You confirm that you have received the translated documents and that the documents meet your standards and specific requests.",
-    "eight": "I will send you my invoice by the end of the month. Every invoice is due within 30 days from the date of invoice."
+    "one": "Contact me via my contact form, by email or phone and provide first details about your project, such as the deadline, type of texts, target audience etc. I will not accept any request that I cannot comply with.",
+    "two": "After our first contact, send me the texts that you would like to be translated. Those translations that must be carried on a special format, which delays or hinders the translation process, will be charged an extra that will be indicated in the budget (for example: HTML, graphic files, paper, etc)",
+    "three": "I will analyse these texts and prepare a non-binding offer for you taking into account the specific details you gave me.",
+    "four": "I will send you my non-binding offer and specify a deadline by which you will have to either accept or decline my offer.",
+    "five": "Upon confirmation, I will draw up a contract that reflects the main points of the service.",
+    "six": "Once we have formalised the contract I will proceed to translate your documents and send them back to you no later than the given deadline.",
+    "seven": "I will send you a detailed invoice. The invoice is due on the specified date."
   },
   "about": {
-    "first": "My name is Jessica Regnault. As a graduate in law from the University of La Laguna and professional translator for more than 3 years, I believe in the power of language and how it forms our perception of the world around us.",
-    "second": "With more than 2,000,000 words translated in technical and legal fields, I will help you successfully communicate with your partners, clients, and suppliers in France and Spain. Tell me what you want to say. I will find the right words."
+    "first": "My name is Jessica Regnault. I am a graduate in Law and full-time professional translator since 2012. Ever since I was a child, I have communicated in my two native languages, French and Spanish, day-to-day, so I believe in the power of language and how it forms our perception of the world around us. This perspective changes based in the language that we communicate in.",
+    "second": "Having translated documents from very diversified fields, I will help you successfully communicate with your partners, clients and suppliers in France and Spain. I will find the right words."
+  },
+  "formation": {
+    "section": {
+      "one": {
+        "title": "Affiliation",
+        "text": "I am member of the ICATF since 2011, bar association from Spain."
+      },
+      "two": {
+        "title": "Education",
+        "subtitle": "Training plays an important role in the life of a translator.",
+        "one": "Localisation and audiovisual translation tools - Traduversia",
+        "two": "Enterprise rights - Université de Paris Panthéon",
+        "three": "Business English - IFC",
+        "four": "Bachelor's degree in Law - ULL",
+        "five": "New challenges of the Criminal Law -ULL",
+        "six": "Legal professions within the European Higher Education Area - ULL"
+      }
+    }
   }
 }
