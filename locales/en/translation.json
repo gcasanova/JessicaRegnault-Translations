@@ -132,12 +132,6 @@
         "five": "Meeting deadlines and delivery requirements."
       },
       "two": {
-        "title": "The following requirements apply to each project that I accept",
-        "one": "I strive to get the best possible translation each time.",
-        "two": "I only translate into French and Spanish, my native languages.",
-        "three": "I only accept orders in my specialty fields."
-      },
-      "three": {
         "title": "Confidentiality of your documents",
         "one": "In accordance with the International Organisation for Standardisation (ISO), the nature of the work performed and any information transmitted by the customer to JR TRANSLATIONS will be subject to strict confidentiality.",
         "two": "These guarantees do not apply in the case that JR TRANSLATIONS is required by law to disclose such information."
@@ -150,16 +144,16 @@
       "title": "Data security",
       "text": "Upon request, I can set up a password-protected FTP server for sending and receiving your documents. I back up all my translations and keep password-protected copies until my clients have received them. All documents are kept confidential."
     },
-    "one": "Contact me via my contact form, by email or phone and provide first details about your project, such as the deadline, type of texts, target audience etc. I will not accept any request that I cannot comply with.",
+    "one": "Contact me via my contact form, by email or phone and provide first details about your project, such as the deadline, type of texts, target audience etc.",
     "two": "After our first contact, send me the texts that you would like to be translated. Those translations that must be carried on a special format, which delays or hinders the translation process, will be charged an extra that will be indicated in the budget (for example: HTML, graphic files, paper, etc)",
     "three": "I will analyse these texts and prepare a non-binding offer for you taking into account the specific details you gave me.",
     "four": "I will send you my non-binding offer and specify a deadline by which you will have to either accept or decline my offer.",
-    "five": "Upon confirmation, I will draw up a contract that reflects the main points of the service.",
+    "five": "Upon confirmation, I will draw up a contract that reflects the main points of the service and the payment methods. A deposit might be required depending on the assignment.",
     "six": "Once we have formalised the contract I will proceed to translate your documents and send them back to you no later than the given deadline.",
     "seven": "I will send you a detailed invoice. The invoice is due on the specified date."
   },
   "about": {
-    "first": "My name is Jessica Regnault. I am a graduate in Law and full-time professional translator since 2012. Ever since I was a child, I have communicated in my two native languages, French and Spanish, day-to-day, so I believe in the power of language and how it forms our perception of the world around us. This perspective changes based in the language that we communicate in.",
+    "first": "My name is Jessica Regnault. I am a graduate in Law and full-time professional translator since 2012. Ever since I was a child, I have communicated in my two native languages, French and Spanish, day-to-day, so I believe in the power of language and how it forms our perception of the world around us.",
     "second": "Having translated documents from very diversified fields, I will help you successfully communicate with your partners, clients and suppliers in France and Spain. I will find the right words."
   },
   "formation": {
