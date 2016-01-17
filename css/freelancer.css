@@ -130,48 +130,45 @@ nav .container {
   .navbar-fixed-top .navbar-brand img {
     width: 250px;
     margin-top: -2px; } }
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 1349px) {
   .navbar-fixed-top .navbar-brand img {
     width: 60%;
     margin-top: 10px; } }
-@media (min-width: 1200px) {
+@media (min-width: 1350px) {
   nav .container {
     width: 95%; }
 
   .navbar-header {
-    width: 15%; }
+    width: 24%; }
 
   .navbar-fixed-top .navbar-brand img {
     width: 100%;
-    margin-top: 20px; }
+    margin-top: 12px; }
 
   .navbar-nav > li > a {
     padding-top: 19.5px;
     padding-bottom: 19.5px; } }
-@media (min-width: 1250px) {
-  .navbar-header {
-    width: 18%; }
-
-  .navbar-fixed-top .navbar-brand img {
-    margin-top: 18px; } }
-@media (min-width: 1300px) {
-  .navbar-header {
-    width: 21%; }
-
-  .navbar-fixed-top .navbar-brand img {
-    margin-top: 15px; } }
 @media (min-width: 1400px) {
+  .navbar-header {
+    width: 24%; }
+
+  .navbar-fixed-top .navbar-brand img {
+    margin-top: 14px; } }
+@media (min-width: 1500px) {
+  .navbar-fixed-top .navbar-brand img {
+    margin-top: 12px; } }
+@media (min-width: 1600px) {
   nav .container {
     width: 85%; }
 
-  .navbar-header {
-    width: 18%; }
-
   .navbar-fixed-top .navbar-brand img {
-    margin-top: 18px; } }
-@media (min-width: 1600px) {
+    margin-top: 13px; } }
+@media (min-width: 1700px) {
   .navbar-fixed-top .navbar-brand img {
-    margin-top: 16px; } }
+    margin-top: 10px; } }
+@media (min-width: 1800px) {
+  .navbar-fixed-top .navbar-brand img {
+    margin-top: 8px; } }
 @media (max-width: 432px) {
   #works-overlay {
     top: 32% !important; } }
