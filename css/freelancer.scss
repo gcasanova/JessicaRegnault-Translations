@@ -210,7 +210,7 @@ nav .container {
   }
 }
 #about-overlay {
-  top: 16%;
+  top: 18%;
 }
 .navbar {
   min-height: 60px;
@@ -274,14 +274,10 @@ section h2 {
   border: 2px solid #fff;
   border-radius: 50%;
 }
+#works,
 #services,
 #formation {
   background-image: url(../img/grey_background.jpg);
-}
-#works {
-  background-image: url(../img/keyboard_locket.png);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
 }
 #services .services-item {
   right: 0;
@@ -341,9 +337,12 @@ section h2 {
 .works-list {
   margin-top: 40px;
 }
-.quality-list-item,
-.works-list-item {
+.quality-list-item {
   margin-top: 25px;
+}
+.works-list-item {
+  margin-top: 45px;
+  margin-bottom: 20px;
 }
 .quality-list-item-text,
 .formation-list-item-text {
@@ -354,6 +353,7 @@ section h2 {
 }
 .works-list-item-text-div {
   width: 75%;
+  padding-bottom: 10px;
 }
 .works-subtitle,
 .formation-subtitle,
@@ -454,7 +454,7 @@ section h2 {
   color: $secondary-color;
 }
 form .row .floating-label-form-group {
-  border-top: 1px solid #eee;
+  border: 2px solid $secondary-color;
 }
 footer {
   color: #fff;

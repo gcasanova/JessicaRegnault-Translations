@@ -124,7 +124,7 @@
   "quality": {
     "section": {
       "one": {
-        "title": "Criterios básicos para asegurar un servicio de calidad",
+        "title": "CRITERIOS BÁSICOS PARA ASEGURAR UN SERVICIO DE CALIDAD",
         "one": "La correcta elección de aspectos fundamentales como terminología, vocabulario, expresiones, tecnicismos y jergas específicas de cada sector en el idioma de destino.",
         "two": "El uso adecuado de gramática, ortografía, puntuación y sintaxis, así como la correcta transcripción de fechas, nombres, datos, etc. en el idioma de destino.",
         "three": "La adecuación del estilo y formas del lenguaje a los fines del texto.",
@@ -132,14 +132,14 @@
         "five": "Cumplimiento de los plazos y requisitos de entrega."
       },
       "two": {
-        "title": "La confidencialidad de sus documentos",
+        "title": "LA CONFIDENCIALIDAD DE SUS DOCUMENTOS",
         "one": "En conformidad con la Organización Internacional de Estandarización (ISO) la naturaleza del trabajo realizado y cualquier información transmitida por el cliente a JR TRANSLATIONS serán objeto de máxima confidencialidad.",
         "two": "Estas garantías no se aplicarán en el caso de que JR TRANSLATIONS sea obligada por ley a comunicar tal información."
       }
     }
   },
   "works": {
-    "title": "Proceso de traducción / revisión / corrección",
+    "title": "PROCESO DE TRADUCCIÓN / REVISIÓN / CORRECCIÓN",
     "security": {
       "title": "Seguridad de sus datos",
       "text": "Bajo demanda, puedo configurar un servidor FTP protegido con contraseña para enviar y recibir sus documentos. Hago copias de seguridad de todas mis traducciones y guardo copias protegidas con contraseña hasta que mis clientes las reciben. Todos los documentos son manejados confidencialmente."
@@ -159,11 +159,11 @@
   "formation": {
     "section": {
       "one": {
-        "title": "Afiliación",
+        "title": "AFILIACIÓN",
         "text": "Desde el año 2011 soy miembro del ICATF, Colegio de Abogados en España."
       },
       "two": {
-        "title": "Formación",
+        "title": "FORMACIÓN",
         "subtitle": "La formación desempeña un papel importante en la vida de los traductores.",
         "one": "Herramientas para la localización y la traducción audiovisual - Traduversia",
         "two": "Derecho de la empresas - Université de Paris Panthéon",

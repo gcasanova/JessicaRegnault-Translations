@@ -124,7 +124,7 @@
   "quality": {
     "section": {
       "one": {
-        "title": "Critères essentiels pour garantir un service de qualité",
+        "title": "CRITÈRES ESSSENTIELS POUR GARANTIR UN SERVICE DE QUALITÉ",
         "one": "Le choix correct dans la langue cible des aspects fondamentaux comme la terminologie, le vocabulaire, les expressions, le langage technique et spécifique de chaque secteur.",
         "two": "L’utilisation correcte dans la langue cible de la grammaire, de l’orthographe, de la ponctuation et de la syntaxe, ainsi que la transcription adéquate des dates, noms, données, etc.",
         "three": "L’adaptation du style et formes du langage en fonction de chaque texte.",
@@ -132,14 +132,14 @@
         "five": "Respect des délais et exigences d’envoi."
       },
       "two": {
-        "title": "La confidentialité de vos documents",
+        "title": "LA CONFIDENTIALITÉ DE VOS DOCUMENTS",
         "one": "Conformément à l’Organisation Internationale de Normalisation (ISO) la nature du travail effectué et quelconque information transmise par le client à JR TRANSLATIONS seront traitées avec la plus grande confidentialité.",
         "two": "Ces garanties ne sont pas applicables dans le cas où JR TRANSLATIONS serait obligée par la loi à communiquer ces informations."
       }
     }
   },
   "works": {
-    "title": "Procédure de traduction / révision / correction",
+    "title": "PROCÉDURE DE TRADUCTION / RÉVISION / CORRECTION",
     "security": {
       "title": "Sécurité de vos données",
       "text": "Sous demande, je peux configurer un serveur FTP protégé avec un mot de passe pour envoyer et recevoir vos documents. J’effectue des copies de sécurité de toutes mes traductions et je conserve des copies protégées avec des mots de passe jusqu’au moment de l’envoi des documents. Tous les documents sont traités de façon confidentielle."
@@ -159,11 +159,11 @@
   "formation": {
     "section": {
       "one": {
-        "title": "Adhésion",
+        "title": "ADHÉSION",
         "text": "Depuis l’année 2011 je suis membre du barreau ICATF, barreau en Espagne."
       },
       "two": {
-        "title": "Formation",
+        "title": "FORMATION",
         "subtitle": "La formation joue un rôle important dans la vie d'un traducteur.",
         "one": "Outils pour la localisation et la traduction audiovisuelle - Traduversia",
         "two": "Droit des entreprises - Université de Paris Panthéon",
