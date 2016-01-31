@@ -533,7 +533,7 @@ footer .footer-below {
 .carousel-caption {
   left: 10%;
   right: 10%;
-  bottom: 100px;
+  bottom: 80px;
   padding-right: 10px;
   padding-left: 10px;
   padding-bottom: 0;
@@ -543,9 +543,9 @@ footer .footer-below {
 .carousel-caption h1,
 .carousel-caption p {
   font-size: 35px;
+  text-shadow: 0 2px 0 black;
   display: inline-block;
-  padding: 5px;
-  background: rgba(17, 24, 31, 0.4); }
+  padding: 5px; }
 
 .static-caption {
   position: absolute;
@@ -589,7 +589,7 @@ footer .footer-below {
 
 .item.next.left > .carousel-caption,
 .item.prev.right > .carousel-caption {
-  bottom: 120px; }
+  bottom: 100px; }
 
 .navbar-collapse {
   max-height: 400px !important; }
