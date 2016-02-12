@@ -22,6 +22,16 @@ $(document).ready(function() {
     $("#email-span").html('<a href="mailto:' + username + '@' + hostname + '">' + username + '@' + hostname + '</a>');
   });
 
+  function verifyFbButtons() {
+    if ($(window).width() < 979) {
+      $('#fb-share-container-xl').hide();
+      $('#fb-share-container-xs').show();
+    } else {
+      $('#fb-share-container-xs').hide();
+      $('#fb-share-container-xl').show();
+    }
+  }
+
   function selectLanguage(lngCode, resetValidation) {
     var fbLng = "en_GB";
     switch (lngCode) {
@@ -57,7 +67,11 @@ $(document).ready(function() {
         FB.init({
           appId: '1894639840760379',
           xfbml: true,
-          version: 'v2.4'
+          version: 'v2.5'
+        });
+
+        FB.Event.subscribe("xfbml.render", function () {
+          verifyFbButtons();
         });
       };
 
@@ -94,6 +108,10 @@ $(document).ready(function() {
         $(this).fadeOut(function() {
           $("#read-more-text-four").fadeIn();
         });
+      });
+
+      $(window).resize(function() {
+        verifyFbButtons();
       });
     }
   }

@@ -92,7 +92,7 @@
     },
     "two": {
       "title": "SPÉCIALISATIONS",
-      "details": "Afin d’utiliser les mots adéquats dans chaque contexte. Fini les erreurs de traduction téchnique",
+      "details": "Afin d’utiliser les mots adéquats dans chaque contexte. Fini les erreurs de traduction technique",
       "more": {
         "one": "Traductions audiovisuelles",
         "two": "Rapports financiers",
@@ -105,7 +105,7 @@
       }
     },
     "three": {
-      "title": "REVISION ET CORRECTION",
+      "title": "RÉVISION ET CORRECTION",
       "details": "Double contrôle",
       "more": {
         "one": "Le service de révision bilingüe vous permet de garantir la révision d’une traduction tout en comparant le texte original et le texte cible et corriger et améliorer le résultat final.",
@@ -113,7 +113,7 @@
       }
     },
     "four": {
-      "title": "INTERPRETATION",
+      "title": "INTERPRÉTATION",
       "details": "Assurez-vous que vos clients vous comprennent",
       "more": {
         "one": "Avec le service d’interprétation vous pouvez garantir que tout ce que vous souhaitez transmettre est partagé, mot à mot.",
@@ -133,7 +133,7 @@
       },
       "two": {
         "title": "LA CONFIDENTIALITÉ DE VOS DOCUMENTS",
-        "one": "Conformément à l’Organisation Internationale de Normalisation (ISO) la nature du travail effectué et quelconque information transmise par le client à JR TRANSLATIONS seront traitées avec la plus grande confidentialité.",
+        "one": "Conformément à l’Organisation Internationale de Normalisation (ISO) la nature du travail effectué et quelconque information transmises par le client à JR TRANSLATIONS seront traitées avec la plus grande confidentialité.",
         "two": "Ces garanties ne sont pas applicables dans le cas où JR TRANSLATIONS serait obligée par la loi à communiquer ces informations."
       }
     }
@@ -144,17 +144,17 @@
       "title": "Sécurité de vos données",
       "text": "Sous demande, je peux configurer un serveur FTP protégé avec un mot de passe pour envoyer et recevoir vos documents. J’effectue des copies de sécurité de toutes mes traductions et je conserve des copies protégées avec des mots de passe jusqu’au moment de l’envoi des documents. Tous les documents sont traités de façon confidentielle."
     },
-    "one": "Contactez moi à travers le formulaire, par e-mail ou si vous préférez, par téléphone et donnez moi les premiers détails sur votre projet, tels que le délai, le format du document, quel service souhaitez-vous, etc.",
-    "two": "Suite à notre premier contact, envoyez moi les documents que vous souhaitez traduire. Les traductions sous format spécial qui ralentissent ou qui rendent difficile la traduction, engendrent un supplément indiqué préalablement sur le devis (par exemple: format HTML, fichiers graphiques, papier, etc)",
-    "three": "J’analyserais les textes et établirais un devis tenant compte des détails spécifiques donnés précédemment.",
-    "four": "Je vous adresserais un devis gratuit et sans engagement vous indiquant une date limite. Vous pourrez accepter ou refuser celui-ci.",
+    "one": "Contactez-moi à travers le formulaire, par e-mail ou si vous préférez, par téléphone et donnez-moi les premiers détails sur votre projet, tels que le délai, le format du document, quel service souhaitez-vous, etc.",
+    "two": "Suite à notre premier contact, envoyez-moi les documents que vous souhaitez traduire. Les traductions sous format spécial qui ralentissent ou qui rendent difficile la traduction, engendrent un supplément indiqué préalablement sur le devis (par exemple: format HTML, fichiers graphiques, papier, etc)",
+    "three": "J’analyserai les textes et établirai un devis tenant compte des détails spécifiques donnés précédemment.",
+    "four": "Je vous adresserai un devis gratuit et sans engagement vous indiquant une date limite. Vous pourrez accepter ou refuser celui-ci.",
     "five": "Pour une réponse positive et après confirmation des deux parties, nous conclurons un contrat avec les principaux points du service solicité. Je vous indiquerais les modalités de paiements et le montant de l’acompte payable à la commande.",
     "six": "Lorsque le contrat aura été validé je procéderai à la traduction de vos documents en respectant les délais.",
     "seven": "Je vous enverrai une facture détaillée indiquant la date d’échéance."
   },
   "about": {
     "first": "Je m’appelle Jessica Regnault. Je suis titulaire d’une maîtrise en Droit et suis traductrice professionnelle à temps plein depuis l’année 2012. Dès l’enfance, j’ai la capacité d’utiliser  mes deux langues maternelles, le français et l’espagnol, et en tant que tel, je crois au pouvoir du langage et la façon dont celui-ci détermine la perspective du monde qui nous entoure.",
-    "second": "Ayant traduit à travers mon activité professionnelle des documents dans des domaines diversifiés, je peux vous aider à communiquer avec vos associés, clients ou fournisseurs de langue française et espagnole. Je trouverais les mots justes et précis."
+    "second": "Ayant traduit à travers mon activité professionnelle des documents dans des domaines diversifiés, je peux vous aider à communiquer avec vos associés, clients ou fournisseurs de langue française et espagnole. Je trouverai les mots justes et précis."
   },
   "formation": {
     "section": {
