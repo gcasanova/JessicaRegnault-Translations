@@ -32,6 +32,17 @@ $(document).ready(function() {
     }
   }
 
+  function navSlide() {
+    var scroll_top = $(window).scrollTop();
+
+    if (scroll_top >= 1200 && $(window).width() < 992) { // the detection!
+      $('.scroll-top .btn').css("visibility", "visible");
+    } else {
+      $('.scroll-top .btn').css("visibility", "hidden");
+    }
+  }
+  navSlide(); // initial run
+
   function selectLanguage(lngCode, resetValidation) {
     var fbLng = "en_GB";
     switch (lngCode) {
@@ -113,6 +124,8 @@ $(document).ready(function() {
       $(window).resize(function() {
         verifyFbButtons();
       });
+
+      $(window).scroll(navSlide);
     }
   }
 });
