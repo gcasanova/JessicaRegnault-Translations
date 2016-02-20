@@ -640,12 +640,18 @@ footer .footer-below {
 }
 .static-caption {
   position: absolute;
-  left: 5%;
-  right: 5%;
-  top: 180px;
+  left: 0%;
+  right: 0%;
+  top: 160px;
   padding-bottom: 0;
   padding-top: 0;
   color: #fff;
+}
+@media(min-width:400px) {
+  .static-caption {
+    left: 5%;
+    right: 5%;
+  }
 }
 .static-caption h1, .static-caption h3 {
   text-shadow: 0 2px 0 black;
