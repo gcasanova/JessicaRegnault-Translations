@@ -31,7 +31,8 @@ a.active {
 .navbar-default .navbar-nav > li > a:hover {
   color: #45CBEE; }
 
-.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:focus {
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:focus {
   color: #fff; }
 
 h1,
@@ -84,11 +85,11 @@ nav .container {
   width: 20%;
   padding: 0;
   margin: 0;
-  margin-right: 0;
-  border-radius: 0px;
+  border-radius: 0;
   border-left: 2px solid #e7e7e7; }
 
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
   background-color: #1C3844; }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -281,7 +282,7 @@ section h2 {
 #works,
 #services,
 #formation {
-  background-image: url(../img/grey_background.jpg); }
+  background-image: url("../img/grey_background.jpg"); }
 
 #services .services-item {
   right: 0;
@@ -321,7 +322,7 @@ section h2 {
   #j-photo {
     display: block; } }
 #contact {
-  background-image: url(../img/keyboard.png);
+  background-image: url("../img/keyboard.png");
   background-repeat: no-repeat;
   background-size: 100% 100%; }
 
@@ -520,10 +521,7 @@ footer .footer-below {
   outline: 0; }
 
 .carousel {
-  padding-top: 90px !important;
-  padding-bottom: 0 !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+  padding: 90px 0 0 !important;
   background-color: #fff;
   width: 100%; }
 
@@ -567,10 +565,7 @@ footer .footer-below {
   left: 10%;
   right: 10%;
   bottom: 80px;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-bottom: 0;
-  padding-top: 0;
+  padding: 0 10px;
   color: #fff; }
 
 .carousel-caption h1,
@@ -582,8 +577,8 @@ footer .footer-below {
 
 .static-caption {
   position: absolute;
-  left: 0%;
-  right: 0%;
+  left: 0;
+  right: 0;
   top: 160px;
   padding-bottom: 0;
   padding-top: 0;
@@ -593,7 +588,8 @@ footer .footer-below {
   .static-caption {
     left: 5%;
     right: 5%; } }
-.static-caption h1, .static-caption h3 {
+.static-caption h1,
+.static-caption h3 {
   text-shadow: 0 2px 0 black;
   display: inline-block;
   padding: 5px; }
