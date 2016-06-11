@@ -168,12 +168,13 @@
       "two": {
         "title": "EDUCATION",
         "subtitle": "Training plays an important role in the life of a translator.",
-        "one": "Localisation and audiovisual translation tools - Traduversia",
-        "two": "Enterprise rights - Université de Paris Panthéon",
-        "three": "Business English - IFC",
-        "four": "Bachelor's degree in Law - ULL",
-        "five": "New challenges of the Criminal Law -ULL",
-        "six": "Legal professions within the European Higher Education Area - ULL"
+        "one": "SDL Trados - advanced level",
+        "two": "Localisation and audiovisual translation tools - Traduversia",
+        "three": "Enterprise rights - Université de Paris Panthéon",
+        "four": "Business English - IFC",
+        "five": "Bachelor's degree in Law - ULL",
+        "six": "New challenges of the Criminal Law - ULL",
+        "seven": "Legal professions within the European Higher Education Area - ULL"
       }
     }
   }

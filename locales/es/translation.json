@@ -168,12 +168,13 @@
       "two": {
         "title": "FORMACIÓN",
         "subtitle": "La formación desempeña un papel importante en la vida de los traductores.",
-        "one": "Herramientas para la localización y la traducción audiovisual - Traduversia",
-        "two": "Derecho de la empresas - Université de Paris Panthéon",
-        "three": "Presencial Business English - IFC",
-        "four": "Licenciatura en Derecho - ULL",
-        "five": "Nuevos retos del Derecho Penal -ULL",
-        "six": "Profesiones jurídicas en el marco del Espacio Europeo de Educación Superior - ULL"
+        "one": "SDL Trados - nivel avanzado",
+        "two": "Herramientas para la localización y la traducción audiovisual - Traduversia",
+        "three": "Derecho de la empresas - Université de Paris Panthéon",
+        "four": "Presencial Business English - IFC",
+        "five": "Licenciatura en Derecho - ULL",
+        "six": "Nuevos retos del Derecho Penal - ULL",
+        "seven": "Profesiones jurídicas en el marco del Espacio Europeo de Educación Superior - ULL"
       }
     }
   }

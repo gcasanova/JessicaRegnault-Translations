@@ -168,12 +168,13 @@
       "two": {
         "title": "FORMATION",
         "subtitle": "La formation joue un rôle important dans la vie d'un traducteur.",
-        "one": "Outils pour la localisation et la traduction audiovisuelle - Traduversia",
-        "two": "Droit des entreprises - Université de Paris Panthéon",
-        "three": "Business English - IFC",
-        "four": "Maîtrise en Droit - ULL",
-        "five": "Nouveaux défis du Droit Pénal - ULL",
-        "six": "Métiers juridiques dans le cadre de l’espace européen d’enseignement supérieur - ULL"
+        "one": "SDL Trados - niveau avancé",
+        "two": "Outils pour la localisation et la traduction audiovisuelle - Traduversia",
+        "three": "Droit des entreprises - Université de Paris Panthéon",
+        "four": "Business English - IFC",
+        "five": "Maîtrise en Droit - ULL",
+        "six": "Nouveaux défis du Droit Pénal - ULL",
+        "seven": "Métiers juridiques dans le cadre de l’espace européen d’enseignement supérieur - ULL"
       }
     }
   }
